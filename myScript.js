@@ -10,7 +10,7 @@ popUp1=window.open(url,'win1','width='+ w +',height='+ h +',left=' + x +',top='+
 
 
 function timeline(){
-	
+	document.getElementById("val").innerHTML=document.getElementById("slide").value;
    	if(document.getElementById("slide").value==50){
 		document.getElementById("image").src = "anker.png";
 		
