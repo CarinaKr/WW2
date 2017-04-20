@@ -35,7 +35,7 @@ function changeall(ic){
 }
 function changeicons(linklist,fulllist,id,positionlist,toplist,leftlist){
 		document.getElementById("icons").innerHTML = "";
-		for (var i = 0; i <= fulllist.length; i++) {
+		for (var i = 0; i < fulllist.length; i++) {
 		document.getElementById("icons").innerHTML += "<a href="+linklist[i]+">" + fulllist[i]+ "</a>";
 		document.getElementById(id[i]).style.position = positionlist[i];
 		document.getElementById(id[i]).style.top = toplist[i];
