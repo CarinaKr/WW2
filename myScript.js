@@ -1,4 +1,15 @@
 
+var wholeDiv=document.getElementById("popup");
+var elements=wholeDiv.getElementsByTagName('*');
+var backgroundPopup=document.getElementById("background");
+var image1Popup=document.getElementById("image1");
+var textPupup=document.getElementById("text");
+
+function init()
+{
+	changeall(ic25);
+	closePopUp();
+}
 
 function popupFenster(url,w,h,s,r) {
 	x=100;
@@ -36,24 +47,17 @@ function changeall(ic){
 function changeicons(linklist,fulllist,id,positionlist,toplist,leftlist){
 		document.getElementById("icons").innerHTML = "";
 		for (var i = 0; i < fulllist.length; i++) {
-		document.getElementById("icons").innerHTML += "<a href="+linklist[i]+">" + fulllist[i]+ "</a>";
+		//document.getElementById("icons").innerHTML += "<a href="+linklist[i]+">" + fulllist[i]+ "</a>";
+		document.getElementById("icons").innerHTML +=fulllist[i];
+		
 		document.getElementById(id[i]).style.position = positionlist[i];
 		document.getElementById(id[i]).style.top = toplist[i];
 		document.getElementById(id[i]).style.left = leftlist[i];
 		}
 	}
 
-var wholeDiv=document.getElementById("popup");
-var elements=wholeDiv.getElementsByTagName('*');
-var backgroundPopup=document.getElementById("background");
-var image1Popup=document.getElementById("image1");
-var textPupup=document.getElementById("text");
-function openPupUp(background,text,image1)
+function closePopUp()
 {
-	backgroundPopup.src=background;
-	image1Popup.src=image1;
-	textPupup.innerHTML=text;
-	
 	wholeDiv.disabled = true;
 	wholeDiv.style.visibility='hidden';
 	for(var i=0;i<elements.length;i++)
@@ -61,12 +65,26 @@ function openPupUp(background,text,image1)
 		elements[i].disabled=true;
 		wholeDiv.style.visibility='hidden';
 	}
+}
+function openPupUp(ic)
+{
+	backgroundPopup.src="platzhalter.png";
+	image1Popup.src="platzhalter.png";
+	textPupup.innerHTML="Platzhalter TExt";
+	
+	wholeDiv.disabled = false;
+	wholeDiv.style.visibility='visible';
+	for(var i=0;i<elements.length;i++)
+	{
+		elements[i].disabled=false;
+		wholeDiv.style.visibility='visible';
+	}
 	
 }
 	
 	//image icon list
 	var ic25 = {
-		full:['<img id="ankericon" src="anker.png" alt="Anker" width="72" height="46" border="0" />'],
+		full:['<img id="ankericon" onclick="openPupUp(ic25)" src="anker.png" alt="Anker" width="72" height="46" border="0" />'],
 		links:["javascript:popupFenster('TestSeite.html','700','450',1,1)"],
 		id:["ankericon"],
 		icon:["anker.png"],
@@ -86,8 +104,8 @@ function openPupUp(background,text,image1)
 		left:[["100px"],["200px"]]
 	}
 	
-changeall(ic25);
-openPupUp("platzhalter.png","text XY","platzhalter.png");
+init();
+
 
 
 
