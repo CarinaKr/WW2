@@ -42,6 +42,28 @@ function changeicons(linklist,fulllist,id,positionlist,toplist,leftlist){
 		document.getElementById(id[i]).style.left = leftlist[i];
 		}
 	}
+
+var wholeDiv=document.getElementById("popup");
+var elements=wholeDiv.getElementsByTagName('*');
+var backgroundPopup=document.getElementById("background");
+var image1Popup=document.getElementById("image1");
+var textPupup=document.getElementById("text");
+function openPupUp(background,text,image1)
+{
+	backgroundPopup.src=background;
+	image1Popup.src=image1;
+	textPupup.innerHTML=text;
+	
+	wholeDiv.disabled = true;
+	wholeDiv.style.visibility='hidden';
+	for(var i=0;i<elements.length;i++)
+	{
+		elements[i].disabled=true;
+		wholeDiv.style.visibility='hidden';
+	}
+	
+}
+	
 	//image icon list
 	var ic25 = {
 		full:['<img id="ankericon" src="anker.png" alt="Anker" width="72" height="46" border="0" />'],
@@ -63,7 +85,9 @@ function changeicons(linklist,fulllist,id,positionlist,toplist,leftlist){
 		tops:[["100px"],["200px"]],
 		left:[["100px"],["200px"]]
 	}
+	
 changeall(ic25);
+openPupUp("platzhalter.png","text XY","platzhalter.png");
 
 
 
