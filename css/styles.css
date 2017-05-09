@@ -43,5 +43,9 @@ a.navBox:HOVER {
 	width: 80%;
 	padding-top: 4%;
 }
-
+/* Für den Bootstrap Slider*/
+.slider{
+	width: 400px !important;
+	height:20px;
+}
 
