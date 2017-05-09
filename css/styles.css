@@ -48,4 +48,36 @@ a.navBox:HOVER {
 	width: 400px !important;
 	height:20px;
 }
+/*Slide Customization TEST*/
+/*.slider{
+	width: 500px !important;
+	height:50px !important;;
+}
+.slider-handle.custom {
+background: transparent none !important;
+background-image: url("handle.jpg") !important;
+ background-size: 20px 50px!important;
+     background-repeat: no-repeat !important;
+	 width: 20px !important;
+	 height: 50px !important;
 
+}
+.slider-handle.custom::before {
+line-height: 0px!important;
+font-size: 0px!important;
+content: ''!important; 
+color: #726204;
+}
+.slider-tick.custom::before {
+  line-height: 0px !important;
+  font-size: 0px !important;
+  content: ''!important;
+  color: #726204;
+}
+.slider-tick {
+  position: absolute;
+  width: 0px !important;
+  height: 0px !important;
+  
+}
+*/
