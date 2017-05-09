@@ -5,6 +5,8 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" type="text/css" href="leaflet/leaflet.css">
+		
 	</head>
 
 	<body>		
@@ -18,8 +20,11 @@
 		</header>
 		
 		<!-- add proper Image -->
-		<div>
-			<img id="mapWindow" alt="map" src="Images/platzhalter.png">
+		<div id="map">
+			<!-- <img id="mapWindow" alt="map" src="Images/platzhalter.png"> -->
 		</div>
+		
+		<script type="text/javascript" src="leaflet/leaflet.js"></script>
+		<script type="text/javascript" src="map.js"></script>
 	</body>
 </html>
