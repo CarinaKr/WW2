@@ -25,7 +25,7 @@ map.setMaxBounds(bounds);
 
 //create popup
 var greenIcon = L.icon({
-    iconUrl: 'Images/platzhalter.png',
+    iconUrl: 'Images/Year1939TRANS.png',
     //shadowUrl: 'leaf-shadow.png',
 
     iconSize:     [26,26], // size of the icon
