@@ -6,8 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" type="text/css" href="leaflet/leaflet.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.0/css/bootstrap-slider.min.css">
-		
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-slider.css">
 	</head>
 
 	<body>		
@@ -30,7 +29,7 @@
 				data-slider-ticks-labels='["1939", "1940", "1941", "1942", "1943", "1944", "1945"]' 
 				data-slider-value="0" />
 		</div>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.0/bootstrap-slider.js"></script>
+		<script type="text/javascript" src="bootstrap-slider.js"></script>
 		<script type="text/javascript" language="JavaScript" src="slider.js"></script>
 		<script type="text/javascript" src="leaflet/leaflet.js"></script>
 		<script type="text/javascript" src="map.js"></script>
