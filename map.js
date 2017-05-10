@@ -18,7 +18,7 @@ var northWest = map.unproject([0, 0], map.getMaxZoom()-1);
 var southEast = map.unproject([w, h], map.getMaxZoom()-1);
 var bounds = new L.LatLngBounds(northWest, southEast);
 
-var image = L.imageOverlay('Images/platzhalter.png', bounds).addTo(map);
+var image = L.imageOverlay('Images/BlankLand_v2.2.png', bounds).addTo(map);
 
 map.setMaxBounds(bounds);
 
