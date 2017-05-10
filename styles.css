@@ -62,3 +62,46 @@ a:ACTIVE {
 	left: 10%;
 }
 
+.slider{
+	width: 100% !important;
+
+}
+.slider-handle.custom {
+background: transparent none !important;
+background-image: url("images/handle.jpg") !important;
+background-size: 15px 40px!important;
+background-repeat: no-repeat !important;
+width: 15px !important;
+height: 40px !important;
+
+}
+.slider-handle.custom::before {
+line-height: 0px!important;
+font-size: 0px!important;
+content: ''!important; 
+color: #726204;
+}
+.slider-tick.custom::before {
+  line-height: 10px !important;
+  font-size: 20px !important;
+  content: ''!important;
+  color: #726204;
+}
+.slider-tick {
+  position: absolute;
+  width: 10px !important;
+  height:20px !important;
+  
+}
+/*
+.slider.slider-horizontal .slider-tick-label-container {
+  white-space: nowrap;
+  margin-top: 20px;
+  position:absolute!important;
+}
+.slider.slider-horizontal .slider-tick-label-container .slider-tick-label {
+  padding-top: 4px;
+  display: inline-block;
+  text-align: center;
+}
+*/
