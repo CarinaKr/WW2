@@ -100,15 +100,18 @@ color: #726204;
   height:20px !important;
   
 }
-/*
+
 .slider.slider-horizontal .slider-tick-label-container {
   white-space: nowrap;
   margin-top: 20px;
+  margin-bottom:20px !important;
   position:absolute!important;
+  top:80%!important;
+
 }
 .slider.slider-horizontal .slider-tick-label-container .slider-tick-label {
   padding-top: 4px;
   display: inline-block;
   text-align: center;
 }
-*/
+
