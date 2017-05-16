@@ -81,8 +81,8 @@ Type 95 Ha-Go/Type 2 Ka-Mi;Light Tank;Japan;1933-1934;2300;7.4t;4.38m;2.06m;2.13
 Type 97 Chi-Ha;Medium Tank;Japan;1936;1162;14.3t;5.5m;2.33m;2.21m;4;8mm-25mm;Type 97 57mm tank gun;38 km/h
 Type 97 Te-Ke;Tankette;Japan;1936-1937;616;4.7t;3.68m;1.8m;1.9m;2;4mm-16mm;Type 94 37mm tank gun;42 km/h
 Type 98 Ke-Ni;Light Tank;Japan;1938;104;7.2t;4.11m;2.12m;1.82m;3;6mm-16mm;Type 100 37mm gun;50 km/h
-BM-13/8/31 Katyusha;Self-Propelled Rocket Artillery;Russia;1939;10000;1t;3.33m;1.58m;unknown;unknown;unknown;8x82mm M-8 rockets;- km/h
-Canon de 194 modèle GPF;Self-Propelled Gun;France;1918;50;29.6t;6.57m;unknown;unknown;unknown;unknown;194mm gun;- km/h
+BM-13/8/31 Katyusha;Self-Propelled Rocket Artillery;Russia;1939;10000;1t;3.33m;1.58m;unknown;unknown;unknown;8x82mm M-8 rockets;#NAME?
+Canon de 194 modèle GPF;Self-Propelled Gun;France;1918;50;29.6t;6.57m;unknown;unknown;unknown;unknown;194mm gun;#NAME?
 Hornisse/Nashorn;Tank Destroyer;Germany;1942;494;24t;8.44m;2.95m;2.65m;4;15mm-30mm;88mm PaK anti-tank gun;42 km/h
 Howitzer Motor Carriage M8 'Scott';Self-Propelled Gun;United States;1942;1778;15.7t;4.41m;2.24m;2.20m;4;10mm-44mm;75mm M3 howitzer;56 km/h
 Jagdpanther;Tank Destroyer;Germany;1944;415;45.5t;9.87m;3.42m;2.71m;5;40mm-100mm;8.8cm Pak 43/3;46 km/h

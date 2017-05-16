@@ -55,6 +55,13 @@ a:ACTIVE {
 	width: 80%;
 }
 
+.popupCustom .leaflet-popup-tip,
+.popupCustom .leaflet-popup-content-wrapper {
+    background: #e0e0e0;
+    color: #234c5e;
+    background-image:url("Images/VintagePaper.jpg");
+}
+
 #slide {
 	position: absolute;
 	bottom: 10%;

@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+
+	
+
 	<head>
 		<title>WW2 Navigator</title>
 		<meta charset="UTF-8">
@@ -29,9 +32,12 @@
 				data-slider-ticks-labels='["1939", "1940", "1941", "1942", "1943", "1944", "1945"]' 
 				data-slider-value="0" />
 		</div>
+		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="bootstrap-slider.js"></script>
-		<script type="text/javascript" language="JavaScript" src="slider.js"></script>
+		
 		<script type="text/javascript" src="leaflet/leaflet.js"></script>
+		<script type="text/javascript" src="rotationMarker.js"></script>
 		<script type="text/javascript" src="map.js"></script>
+		<script type="text/javascript" language="JavaScript" src="slider.js"></script>
 	</body>
 </html>
