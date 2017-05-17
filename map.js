@@ -88,16 +88,19 @@ function setOperations(data)
 	{map.removeLayer(zOperationsLayer);}
 	
 	//add new data
-	var pObject=JSON.parse(data);
-	for(var i=0;i<pObject.length;i++)
-	{
-		var pY=pObject[i].PlaceY;
-		var pX=pObject[i].PlaceX;
-		zOperationsMarker[i]=L.marker([pY,pX],{icon:operationIcon,rotationAngle:45});
-		zOperationsMarker[i].bindPopup("<b>"+pObject[i].Name+"</b><br>" +pObject[i].Text+
-				"</div>",popupOperations);
+	var pObject;
+	if(data!="")
+	{pObject=JSON.parse(data);
+		for(var i=0;i<pObject.length;i++)
+		{
+			var pY=pObject[i].PlaceY;
+			var pX=pObject[i].PlaceX;
+			zOperationsMarker[i]=L.marker([pY,pX],{icon:operationIcon,rotationAngle:45});
+			zOperationsMarker[i].bindPopup("<b>"+pObject[i].Name+"</b><br>" +pObject[i].Text+
+					"</div>",popupOperations);
+		}
+		zOperationsLayer=L.layerGroup(zOperationsMarker).addTo(map);
 	}
-	zOperationsLayer=L.layerGroup(zOperationsMarker).addTo(map);
 }
 function setBattles(data)
 {
@@ -106,16 +109,20 @@ function setBattles(data)
 	if(zBattlesLayer!=null)
 	{map.removeLayer(zBattlesLayer);}
 	
-	var pObject=JSON.parse(data);
-	for(var i=0;i<pObject.length;i++)
-	{
-		var pY=pObject[i].PlaceY;
-		var pX=pObject[i].PlaceX;
-		zBattlesMarker[i]=L.marker([pY,pX],{icon:battleIcon,rotationAngle:0});
-		zBattlesMarker[i].bindPopup("<b>"+pObject[i].Name+"</b><br>" +pObject[i].Text+
-				"</div>",popupOperations);	
+	var pObject;
+	if(data!="")
+	{pObject=JSON.parse(data);
+		for(var i=0;i<pObject.length;i++)
+		{
+			var pY=pObject[i].PlaceY;
+			var pX=pObject[i].PlaceX;
+			zBattlesMarker[i]=L.marker([pY,pX],{icon:battleIcon,rotationAngle:0});
+			zBattlesMarker[i].bindPopup("<b>"+pObject[i].Name+"</b><br>Axis: "+pObject[i].Axis+"</b><br>Allies: "+pObject[i].Allies+"<br>"+ 
+					pObject[i].Text+
+					"</div>",popupOperations);	
+		}
+		zBattlesLayer=L.layerGroup(zBattlesMarker).addTo(map);
 	}
-	zBattlesLayer=L.layerGroup(zBattlesMarker).addTo(map);
 }
 
 function setDivisions(data)

@@ -1,6 +1,6 @@
 <?php
 
-	$conn=new mysqli(<servername>,<user>,,<passwort>,<datenbank name>);
+	$conn=new mysqli("pstud0","aca083","aca083","aca083");
 	//mysqli_select_db("rdb-test");
 	if ($conn->connect_error) {
 		die("Connection failed: " . $conn->connect_error);

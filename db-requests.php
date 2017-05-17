@@ -3,9 +3,9 @@ require 'database.php';
 
 if($_POST['type']==='operations')
 {
-	$sql = "SELECT ID, Name, PlaceY,PlaceX,Text FROM usedoperations WHERE Year=".$_POST['year'];
+	$sql = "SELECT ID, Name, PlaceY,PlaceX,Text FROM UsedOperations WHERE Year=".$_POST['year'];
 	$result = $conn->query($sql);
-	
+	$json_array=null;
 	if ($result->num_rows > 0) {
 		// output data of each row
 		$results=array();
@@ -21,9 +21,9 @@ if($_POST['type']==='operations')
 }
 if($_POST['type']==='battles')
 {
-	$sql = "SELECT  Name, PlaceY,PlaceX,Text FROM usedbattles WHERE Date=".$_POST['year'];
+	$sql = "SELECT  Name, PlaceY,PlaceX,Text,Axis,Allies FROM UsedBattles WHERE Date=".$_POST['year'];
 	$result = $conn->query($sql);
-	
+	$json_array=null;
 	if ($result->num_rows > 0) {
 		// output data of each row
 		$results=array();
@@ -40,22 +40,22 @@ if($_POST['type']==='battles')
 if($_POST['type']==='divisions-via-operations')
 {
 	$sql = "SELECT 
-			    division.ID,
-			    division.Name,
-			    division.Truppenstaerke,
-			    division.Offizier,
-			    usedoperations.PlaceY,
-			    usedoperations.PlaceX
+			    Division.ID,
+			    Division.Name,
+			    Division.Truppenstaerke,
+			    Division.Offizier,
+			    UsedOperations.PlaceY,
+			    UsedOperations.PlaceX
 			FROM
-			    division,
-			    usedoperations,
-			    zwischentablle_divsion_operation
+			    Division,
+			    UsedOperations,
+			    ZwischenTabelle_Divsion_Operation
 			WHERE
-			    usedoperations.Year =" .$_POST['year']."
-			        AND usedoperations.ID = zwischentablle_divsion_operation.Operation_ID
-			        AND division.ID = zwischentablle_divsion_operation.Division_ID";
+			    UsedOperations.Year =" .$_POST['year']."
+			        AND UsedOperations.ID = ZwischenTabelle_Divsion_Operation.Operation_ID
+			        AND Division.ID = ZwischenTabelle_Divsion_Operation.Division_ID";
 	$result = $conn->query($sql);
-	
+	$json_array=null;
 	if ($result->num_rows > 0) {
 		// output data of each row
 		$results=array();
@@ -72,15 +72,15 @@ if($_POST['type']==='divisions-via-operations')
 if($_POST['type']==='tanks')
 {
 	$sql = "SELECT 
-			    tanks.*, zwischentabelle_division_tanks.Anzahl
+			    Tanks.*, ZwischenTabelle_Division_Tanks.Anzahl
 			FROM
-			    division,
-			    tanks,
-			    zwischentabelle_division_tanks
+			    Division,
+			    Tanks,
+			    ZwischenTabelle_Division_Tanks
 			WHERE
-			    division.ID =".$_POST['division']."
-			        AND division.ID = zwischentabelle_division_tanks.Division_ID
-			        AND tanks.Name = zwischentabelle_division_tanks.Typ_ID";
+			    Division.ID =".$_POST['division']."
+			        AND Division.ID = ZwischenTabelle_Division_Tanks.Division_ID
+			        AND Tanks.Name = ZwischenTabelle_Division_Tanks.Typ_ID";
 	$result = $conn->query($sql);
 	$json_array=null;
 	if ($result->num_rows > 0) {
@@ -100,16 +100,16 @@ if($_POST['type']==='tanks')
 if($_POST['type']==='ships')
 {
 	$sql = "SELECT 
-			    zwischentabelle_division_ships.Division_ID,zwischentabelle_division_ships.Anzahl, ships.*, shipsclass.*
+			    ZwischenTabelle_Division_Ships.Division_ID,ZwischenTabelle_Division_Ships.Anzahl, Ships.*, ShipsClass.*
 			FROM
-			    zwischentabelle_division_ships,
-			    ships,
-			    shipsclass
+			    ZwischenTabelle_Division_Ships,
+			    Ships,
+			    ShipsClass
 			WHERE
-			    zwischentabelle_division_ships.Division_ID = ".$_POST['division']."
-			        AND ships.Name = zwischentabelle_division_ships.Ship_Name
-			        AND ships.Class = zwischentabelle_division_ships.Ship_Class
-        			AND shipsclass.Class=ships.Class";
+			    ZwischenTabelle_Division_Ships.Division_ID = ".$_POST['division']."
+			        AND Ships.Name = ZwischenTabelle_Division_Ships.Ship_Name
+			        AND Ships.Class = ZwischenTabelle_Division_Ships.Ship_Class
+        			AND ShipsClass.Class=Ships.Class";
 	$result = $conn->query($sql);
 	$json_array=null;
 	if ($result->num_rows > 0) {

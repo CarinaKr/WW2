@@ -46,9 +46,15 @@
 		//1939
 		else if(sliderValue==0){
 			$.post("db-requests.php",{type:"operations", year:"1939"},function(data){
-				setOperations(data);
+			setOperations(data);
 			});
-			//alert("1939")
+			$.post("db-requests.php",{type:"battles", year:"1939"},function(data){
+				setBattles(data);
+			});
+			$.post("db-requests.php",{type:"divisions-via-operations", year:"1939"},function(data){
+				setDivisions(data);
+			});
+
 			
 		}
 	});
@@ -56,11 +62,15 @@
 	function sliderValue(sliderValue)
 	{
 		//1939
-		if(sliderValue==0){
-			$.post("db-requests.php",{type:"operations",year:"1939"},function(data){
-				setOperations(data);
-			});
-			
-		}
+		$.post("db-requests.php",{type:"operations", year:"1939"},function(data){
+			setOperations(data);
+		});
+		$.post("db-requests.php",{type:"battles", year:"1939"},function(data){
+			setBattles(data);
+		});
+		$.post("db-requests.php",{type:"divisions-via-operations", year:"1939"},function(data){
+			setDivisions(data);
+		});
+
 	}
 
