@@ -6,6 +6,7 @@
 	<body>		
 		<?php include 'header.php';	?>
 		
+		<img id="mapBorder" alt="mapBorder" src="Images/OldPaperMap.jpg">
 		<div id="map"></div>
 		<div id="slide">
 			<input id="ex13" class="slider" type="text" data-slider-handle="custom" 

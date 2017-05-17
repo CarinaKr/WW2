@@ -52,6 +52,17 @@ a:ACTIVE {
 	background-color: #546b8e;
 }
 
+#mapBorder {
+	position: absolute;
+	left: 7%;
+	right: 7%;
+	top: 4%;
+	bottom: 17%;
+	height: 79%;
+	width: 86%;
+	z-index: -1;
+}
+
 #map {
 	position: absolute;
 	left: 10%;
