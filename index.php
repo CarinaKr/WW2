@@ -1,28 +1,14 @@
 <!DOCTYPE html>
 <html>
 
-	
-
-	<head>
-		<title>WW2 Navigator</title>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="styles.css">
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		<link rel="stylesheet" type="text/css" href="leaflet/leaflet.css">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap-slider.css">
-	</head>
+	<?php include 'head.php';?>
 
 	<body>		
-		<header>
-			<ul class="navibar">
-				<li class="navElement"><a class="navBox" href="">Home</a></li>
-				<li class="navElement"><a class="navBox" href="">Gallerie</a></li>
-				<li class="navElement"><a class="navBox" href="">Options</a></li>
-				<li class="navElement"><a class="navBox" href="">About</a></li>
-			</ul>
-		</header>
+		<?php include 'header.php';	?>
 		
-		<!-- add proper Image -->
+		<img id="mapBorder" alt="mapBorder" src="Images/OldPaperMap.jpg">
+		<img id="mapBorderTop" alt="mapBorderTop" src="Images/OldPaperMapTop.png">
+		<img id="mapBorderRight" alt="mapBorderTop" src="Images/OldPaperMapTop.png">
 		<div id="map"></div>
 		<div id="slide">
 			<input id="ex13" class="slider" type="text" data-slider-handle="custom" 
@@ -32,9 +18,11 @@
 				data-slider-ticks-labels='["1939", "1940", "1941", "1942", "1943", "1944", "1945"]' 
 				data-slider-value="0" />
 		</div>
+		
+		<!-- Slider -->
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="bootstrap-slider.js"></script>
-		
+		<!-- Map -->
 		<script type="text/javascript" src="leaflet/leaflet.js"></script>
 		<script type="text/javascript" src="rotationMarker.js"></script>
 		<script type="text/javascript" src="map.js"></script>

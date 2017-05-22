@@ -6,34 +6,42 @@ body, html{
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	background-image: url("Images/VintagePaper_SlightGrey.jpg");
+	background-image: url("Images/BG_stuff/old-1130734.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: dimgrey;
 	z-index: -2;
 }
 
+@font-face{
+    font-family: "HeadlinerNO45";
+    src: url('Font/headliner/HeadlinerNo.45 DEMO.ttf');
+}
+
 ul.navibar {
 	position: fixed;
 	top: 0;
 	width: 100%;
+	height: 10%;
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
-	overflow: visible;
-	background-color: #66768e;
+	background-image: url("Images/headerBG7.png");
+	background-repeat: no-repeat;
+	font-family: "HeadlinerNO45"; 
+	font-size: 30px;
+	letter-spacing: 2px;
+	z-index: 2;
 }
 
 li.navElement {
 	float: left;
 	width: 25%;
+
 }
 
 a.navBox {
 	display: block;
-	color: white;
 	text-align: center;
-	padding: 8px;
 	text-decoration: none;
 }
 
@@ -45,6 +53,37 @@ a:ACTIVE {
 	background-color: #546b8e;
 }
 
+#mapBorder {
+	position: absolute;
+	left: 7%;
+	right: 7%;
+	top: 4%;
+	bottom: 17%;
+	height: 79%;
+	width: 86%;
+	z-index: -5;
+}
+
+#mapBorderTop {
+	position: absolute;
+	left: 7%;
+	right: 7%;
+	top: 4%;
+	height: 4%;
+	width: 86%;
+	z-index: 1;
+}
+
+#mapBorderRight {
+	position: absolute;
+	left: 93%%;
+	right: 7%;
+	top: 4%;
+	height: 86%;
+	width: 4%;
+	z-index: 1;
+}
+
 #map {
 	position: absolute;
 	left: 10%;
@@ -53,6 +92,7 @@ a:ACTIVE {
 	bottom: 20%;
 	height: 73%;
 	width: 80%;
+	z-index: 0;
 }
 
 .popupCustom .leaflet-popup-tip,
