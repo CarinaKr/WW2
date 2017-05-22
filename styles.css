@@ -5,7 +5,11 @@ body, html{
 }
 
 body {
+<<<<<<< HEAD
 	font-family: Arial, Helvetica, sans-serif;
+=======
+	font-family: "Times New Roman", Times, serif;
+>>>>>>> d54ff49cc6c32f1703a4babde981232fa8b8289f
 	background-image: url("Images/BG_stuff/old-1130734.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -22,7 +26,11 @@ ul.navibar {
 	position: fixed;
 	top: 0;
 	width: 100%;
+<<<<<<< HEAD
 	height: 10%;
+=======
+	height: 100%;
+>>>>>>> d54ff49cc6c32f1703a4babde981232fa8b8289f
 	list-style-type: none;
 	margin: 0;
 	background-image: url("Images/headerBG7.png");
@@ -30,7 +38,10 @@ ul.navibar {
 	font-family: "HeadlinerNO45"; 
 	font-size: 30px;
 	letter-spacing: 2px;
+<<<<<<< HEAD
 	z-index: 2;
+=======
+>>>>>>> d54ff49cc6c32f1703a4babde981232fa8b8289f
 }
 
 li.navElement {
@@ -61,6 +72,7 @@ a:ACTIVE {
 	bottom: 17%;
 	height: 79%;
 	width: 86%;
+<<<<<<< HEAD
 	z-index: -5;
 }
 
@@ -82,6 +94,9 @@ a:ACTIVE {
 	height: 86%;
 	width: 4%;
 	z-index: 1;
+=======
+	z-index: -1;
+>>>>>>> d54ff49cc6c32f1703a4babde981232fa8b8289f
 }
 
 #map {

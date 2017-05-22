@@ -7,8 +7,11 @@
 		<?php include 'header.php';	?>
 		
 		<img id="mapBorder" alt="mapBorder" src="Images/OldPaperMap.jpg">
+<<<<<<< HEAD
 		<img id="mapBorderTop" alt="mapBorderTop" src="Images/OldPaperMapTop.png">
 		<img id="mapBorderRight" alt="mapBorderTop" src="Images/OldPaperMapTop.png">
+=======
+>>>>>>> d54ff49cc6c32f1703a4babde981232fa8b8289f
 		<div id="map"></div>
 		<div id="slide">
 			<input id="ex13" class="slider" type="text" data-slider-handle="custom" 
