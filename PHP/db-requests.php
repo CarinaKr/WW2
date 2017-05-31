@@ -44,6 +44,7 @@ if($_POST['type']==='divisions-via-operations')
 			    Division.Name,
 			    Division.Truppenstaerke,
 			    Division.Offizier,
+				Division.Type,
 			    UsedOperations.PlaceY,
 			    UsedOperations.PlaceX
 			FROM
