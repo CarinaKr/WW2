@@ -49,19 +49,25 @@ var greenIcon = L.icon({
 });
 
 var operationIcon = L.icon({
-    iconUrl: 'Images/landmark-map-arrow.png',
+    iconUrl: 'Images/ArrowIcon.png',
     iconSize:     [26,26], // size of the icon
     iconAnchor:   [13,13], // point of the icon which will correspond to marker's location
     popupAnchor:  [0,0] // point from which the popup should open relative to the iconAnchor
 });
 var battleIcon = L.icon({
-    iconUrl: 'Images/battle.png',
+    iconUrl: 'Images/BattleIcon.png',
     iconSize:     [26,26], // size of the icon
     iconAnchor:   [13,13], // point of the icon which will correspond to marker's location
     popupAnchor:  [0,0] // point from which the popup should open relative to the iconAnchor
 });
-var divisionIcon= L.icon({
-    iconUrl: 'Images/division.png',
+var shipsIcon= L.icon({
+    iconUrl: 'Images/ShipsIcon.png',
+    iconSize:     [26,26], // size of the icon
+    iconAnchor:   [13,13], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0,0] // point from which the popup should open relative to the iconAnchor
+});
+var tanksIcon= L.icon({
+    iconUrl: 'Images/DivisionIcon.png',
     iconSize:     [26,26], // size of the icon
     iconAnchor:   [13,13], // point of the icon which will correspond to marker's location
     popupAnchor:  [0,0] // point from which the popup should open relative to the iconAnchor
@@ -146,13 +152,17 @@ function setDivisions(data)
 		{pX=(parseInt(pX)+13).toString();}
 		else
 		{pX=(parseInt(pX)-13).toString();}
-		zDivisionsMarker[i]=L.marker([pY,pX],{icon:divisionIcon,rotationAngle:0}).addTo(map);
+		
+		if(zAktuelleDivisions[i].Type=="Land")
+		{zDivisionsMarker[i]=L.marker([pY,pX],{icon:tanksIcon,rotationAngle:0}).addTo(map);}
+		else if(zAktuelleDivisions[i].Type=="Wasser")
+		{zDivisionsMarker[i]=L.marker([pY,pX],{icon:shipsIcon,rotationAngle:0}).addTo(map);}
 		
 		zPopupContainer[i]=$('<div/>');
 		zPopupString[i]="";
 		zPopupString[i]="<b>"+zAktuelleDivisions[i].Name+"</b><br><b>Commanded by: "+zAktuelleDivisions[i].Offizier+"</b>" +
 						"<br>Consisted of: <br>Ships: ";
-		$.post("db-requests.php",{type:"ships", division:zAktuelleDivisions[i].ID,nummer:i},function(ships){
+		$.post("PHP/db-requests.php",{type:"ships", division:zAktuelleDivisions[i].ID,nummer:i},function(ships){
 			
 			//alert(ships);
 			var pShips=new Array();
@@ -186,7 +196,7 @@ function setDivisions(data)
 			  }
 			
 			zPopupString[pNummer]+="<br>Tanks: ";
-			$.post("db-requests.php",{type:"tanks", division:zAktuelleDivisions[pNummer].ID,nummer:pNummer},function(tanks){
+			$.post("PHP/db-requests.php",{type:"tanks", division:zAktuelleDivisions[pNummer].ID,nummer:pNummer},function(tanks){
 				var pTanks=new Array();
 				if(tanks!="")
 				{pTanks=JSON.parse(tanks);}

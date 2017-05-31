@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 
-	<?php include 'head.php';?>
+	<?php include 'PHP/head.php';?>
 
 	<body>		
-		<?php include 'header.php';	?>
+		<?php include 'PHP/header.php';	?>
 		
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Proin ornare mauris imperdiet ante molestie scelerisque.

@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html>
 
-	<?php include 'head.php';?>
+	<?php include 'PHP/head.php'; ?>
 
 	<body>		
-		<?php include 'header.php';	?>
+		<?php include 'PHP/header.php';	?>
 		
 		<img id="mapBorder" alt="mapBorder" src="Images/OldPaperMap.jpg">
-<<<<<<< HEAD
 		<img id="mapBorderTop" alt="mapBorderTop" src="Images/OldPaperMapTop.png">
 		<img id="mapBorderRight" alt="mapBorderTop" src="Images/OldPaperMapTop.png">
-=======
->>>>>>> d54ff49cc6c32f1703a4babde981232fa8b8289f
 		<div id="map"></div>
 		<div id="slide">
 			<input id="ex13" class="slider" type="text" data-slider-handle="custom" 
@@ -23,12 +20,12 @@
 		</div>
 		
 		<!-- Slider -->
-		<script type="text/javascript" src="jquery.js"></script>
-		<script type="text/javascript" src="bootstrap-slider.js"></script>
+		<script type="text/javascript" src="JavaScript/jquery.js"></script>
+		<script type="text/javascript" src="JavaScript/bootstrap-slider.js"></script>
 		<!-- Map -->
 		<script type="text/javascript" src="leaflet/leaflet.js"></script>
-		<script type="text/javascript" src="rotationMarker.js"></script>
-		<script type="text/javascript" src="map.js"></script>
-		<script type="text/javascript" language="JavaScript" src="slider.js"></script>
+		<script type="text/javascript" src="JavaScript/rotationMarker.js"></script>
+		<script type="text/javascript" src="JavaScript/map.js"></script>
+		<script type="text/javascript" language="JavaScript" src="JavaScript/slider.js"></script>
 	</body>
 </html>
