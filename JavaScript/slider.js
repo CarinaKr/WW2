@@ -7,17 +7,17 @@
 		
 		//1945
 		if(sliderValue==6){
-			alert("1945");
+			
 			
 		}
 		//1944
 		else if(sliderValue==5){
-			alert("1944");
+			
 			
 		}
 		//1943
 		else if(sliderValue==4){
-			alert("1943");
+			
 			
 		}
 		//1942
@@ -35,12 +35,12 @@
 		}
 		//1941
 		else if(sliderValue==2){
-			alert("1941");
+			
 			
 		}
 		//1940
 		else if(sliderValue==1){
-			alert("1940");
+			
 			
 		}
 		//1939

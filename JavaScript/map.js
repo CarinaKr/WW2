@@ -38,6 +38,20 @@ var bounds = new L.LatLngBounds(northWest, southEast);
 var image = L.imageOverlay('Images/BlankLand_v2.2.png', bounds).addTo(map);
 
 map.setMaxBounds(bounds);
+var mark = L.icon({
+    iconUrl: 'Images/handle.jpg',
+    iconSize:     [10,10], // size of the icon
+    iconAnchor:   [5,5], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0,0] // point from which the popup should open relative to the iconAnchor
+});
+for(var i=0;i<36;i++)
+{
+	for(var j=0;j<24;j++)
+	{
+		var marker=L.marker([-j*50,i*50],{icon:mark}).addTo(map).bindPopup("x:"+i*50+", y:"+j*50).openPopup();
+	}
+}
+
 
 
 //create popup
