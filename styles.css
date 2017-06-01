@@ -111,15 +111,27 @@ a:ACTIVE {
 
 .slider{
 	width: 100% !important;
-
+	
 }
+.slider.slider-horizontal .slider-track {
+  height: 10px!important;
+  width: 100%;
+  margin-top: -5px;
+  top: 50%;
+  left: 0;
+  background-image: url("Images/rope.png") !important;
+  background-repeat: repeat-x!important;
+  background-size: 80px 10px!important;
+}
+
+
 .slider-handle.custom {
 background: transparent none !important;
 background-image: url("Images/HandlerRust.png") !important;
-background-size: 15px 40px!important;
+background-size: 10px 30px!important;
 background-repeat: no-repeat !important;
-width: 15px !important;
-height: 40px !important;
+width: 10px !important;
+height: 30px !important;
 
 }
 .slider-handle.custom::before {
@@ -147,11 +159,20 @@ color: #726204;
   margin-bottom:20px !important;
   position:absolute!important;
   top:80%!important;
-
+	
+	
 }
 .slider.slider-horizontal .slider-tick-label-container .slider-tick-label {
-  padding-top: 4px;
+  padding-top: 0px!important;
   display: inline-block;
   text-align: center;
+  font-size:20px;
+  font-family: "HeadlinerNO45";
+  background-image: url("Images/board.png")!important;
+  background-size: 80px 30px!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  
 }
 

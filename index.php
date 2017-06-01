@@ -15,6 +15,7 @@
 				data-slider-min="1939" data-slider-max="1945" 
 				data-slider-ticks="[0, 1, 2, 3, 4, 5, 6]" 
 				data-slider-ticks-snap-bounds="1" 
+				data-slider-selection="none"
 				data-slider-ticks-labels='["1939", "1940", "1941", "1942", "1943", "1944", "1945"]' 
 				data-slider-value="0" />
 		</div>
