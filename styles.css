@@ -73,13 +73,31 @@ a:ACTIVE {
 	width: 86%;
 	z-index: 1;
 }
+#mapBorderBottom {
+	position: absolute;
+	left: 7%;
+	right: 7%;
+	top: 79%;
+	height: 4%;
+	width: 86%;
+	z-index: 1;
+}
 
 #mapBorderRight {
 	position: absolute;
 	left: 93%%;
 	right: 7%;
 	top: 4%;
-	height: 86%;
+	height: 79%;
+	width: 4%;
+	z-index: 1;
+}
+#mapBorderLeft {
+	position: absolute;
+	left: 7%;
+	right: 86%;
+	top: 4%;
+	height: 79%;
 	width: 4%;
 	z-index: 1;
 }
