@@ -6,7 +6,6 @@
 	<body>		
 		<?php include 'PHP/header.php';	?>
 		
-	    <img id="mapBorder" alt="mapBorder" src="Images/OldPaperMap.jpg">
 		<img id="mapBorderTop" alt="mapBorderTop" src="Images/OldPaperMapTop.png">
 		<img id="mapBorderRight" alt="mapBorderRight" src="Images/OldPaperMapRight.png">
 		<img id="mapBorderBottom" alt="mapBorderBottom" src="Images/OldPaperMapBottom.png">
