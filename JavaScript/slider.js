@@ -45,6 +45,7 @@
 		}
 		//1939
 		else if(sliderValue==0){
+			
 			$.post("PHP/db-requests.php",{type:"operations", year:"1939"},function(data){
 				setOperations(data);
 			});

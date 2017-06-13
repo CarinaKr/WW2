@@ -11,6 +11,8 @@ body {
 	background-size: cover;
 	background-color: dimgrey;
 	z-index: -2;
+	color: #11074d;
+	text-shadow: -1px 0 #c0c0c0, 0 1px #c0c0c0, 1px 0 #c0c0c0, 0 -1px #c0c0c0;
 }
 
 @font-face{
@@ -40,28 +42,18 @@ li.navElement {
 }
 
 a.navBox {
+	margin-left: -100px;
 	display: block;
 	text-align: center;
 	text-decoration: none;
 }
 
 a.navBox:HOVER {
-	background-color: #424c5b;
+	background-color: #4d1d07;
 }
 
 a:ACTIVE {
 	background-color: #546b8e;
-}
-
-#mapBorder {
-	position: absolute;
-	left: 7%;
-	right: 7%;
-	top: 4%;
-	bottom: 17%;
-	height: 79%;
-	width: 86%;
-	z-index: -5;
 }
 
 #mapBorderTop {

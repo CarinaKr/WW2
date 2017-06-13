@@ -20,7 +20,7 @@
 				data-slider-ticks-labels='["1939", "1940", "1941", "1942", "1943", "1944", "1945"]' 
 				data-slider-value="0" />
 		</div>
-		
+
 		<!-- Slider -->
 		<script type="text/javascript" src="JavaScript/jquery.js"></script>
 		<script type="text/javascript" src="JavaScript/bootstrap-slider.js"></script>
