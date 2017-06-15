@@ -1,7 +1,7 @@
 ID;Name;Truppenstärke;Offizier;Fraktion;Type
 1;Sturzkampfgeschwader 76;29 Junker Ju 87B;Captain Walter Sigel;German;Land
 2;Sturzkampfgeschwader 2 Immermann;29 Stukas;Major Oskar Dinort;German;Land
-3;Luftwaffe;400 Bomber;Mayor General Wolfram von Richthofen;German;Land
+3;Luftwaffe;400 Bombers;Mayor General Wolfram von Richthofen;German;Land
 4;Burza, Blyskawica, Grom ;3 Destroyers;;Polish;Wasser
 5;;5 Submarines;Adam Mohuczy;Polish;Wasser
 6;21. Panzer Division;;Generalmajor Georg von Bismarck;German;Land
@@ -16,3 +16,5 @@ ID;Name;Truppenstärke;Offizier;Fraktion;Type
 ;;;;;
 ;;;;;
 46;First Allied Airborne Army;All British airforces plus the Polish first Parachute Brigade;Richard Nelson Gale;Allies;Land
+47;Japanese Naval forces;1 Aricraft Carriers, 3 Light Arcraft Carriers, 8 Battleships, 13 Heavy Cruisers, 6 Light Cruisers, 31 Destroyers ;Ozawa;Japanese;Wasser
+48;Alliiert Naval forces;8 Aricraft Carriers, 8 Light Arcraft Carriers, 10 Battleships, 9 Heavy Cruisers, 13 Light Cruisers, 105 Destroyers ;Ohlendorf;Allies;Wasser
