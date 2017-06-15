@@ -35,8 +35,7 @@ var northWest = map.unproject([0, 0], map.getMaxZoom()-1);
 var southEast = map.unproject([w, h], map.getMaxZoom()-1);
 var bounds = new L.LatLngBounds(northWest, southEast);
 
-var mapImage = 'Images/BlankLand_v2.2.png';
-var image = L.imageOverlay(mapImage, bounds).addTo(map);
+var image = L.imageOverlay('Images/1939sep.png', bounds).addTo(map);
 
 map.setMaxBounds(bounds);
 var mark = L.icon({
@@ -56,13 +55,6 @@ for(var i=0;i<36;i++)
 
 
 //create popup
-var greenIcon = L.icon({
-    iconUrl: 'Images/Year1939TRANS.png',
-    iconSize:     [26,26], // size of the icon
-    iconAnchor:   [13,13], // point of the icon which will correspond to marker's location
-    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
-});
-
 var operationIcon = L.icon({
     iconUrl: 'Images/ArrowIcon.png',
     iconSize:     [26,26], // size of the icon
