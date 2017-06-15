@@ -60,7 +60,7 @@ a:ACTIVE {
 	position: absolute;
 	left: 7%;
 	right: 7%;
-	top: 4%;
+	top: 8%;
 	height: 4%;
 	width: 86%;
 	z-index: 1;
@@ -69,7 +69,7 @@ a:ACTIVE {
 	position: absolute;
 	left: 7%;
 	right: 7%;
-	top: 79%;
+	top: 83%;
 	height: 4%;
 	width: 86%;
 	z-index: 1;
@@ -77,9 +77,9 @@ a:ACTIVE {
 
 #mapBorderRight {
 	position: absolute;
-	left: 93%%;
+	left: 90%;
 	right: 7%;
-	top: 4%;
+	top: 8%;
 	height: 79%;
 	width: 4%;
 	z-index: 1;
@@ -88,7 +88,7 @@ a:ACTIVE {
 	position: absolute;
 	left: 7%;
 	right: 86%;
-	top: 4%;
+	top: 8%;
 	height: 79%;
 	width: 4%;
 	z-index: 1;
@@ -98,7 +98,7 @@ a:ACTIVE {
 	position: absolute;
 	left: 10%;
 	right: 10%;
-	top: 7%;
+	top: 11%;
 	bottom: 20%;
 	height: 73%;
 	width: 80%;
@@ -114,7 +114,7 @@ a:ACTIVE {
 
 #slide {
 	position: absolute;
-	bottom: 10%;
+	bottom: 4%;
 	width: 80%;
 	left: 10%;
 }
