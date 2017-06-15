@@ -5,22 +5,13 @@
 
 	<body>		
 		<?php include 'PHP/header.php';	?>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Proin ornare mauris imperdiet ante molestie scelerisque.
-Donec varius erat vel lorem sagittis, sed suscipit orci euismod.
-Cras ultrices elit ac nunc laoreet, ac commodo libero lobortis.
-Suspendisse in lacus id mauris commodo efficitur.
-Aenean sit amet velit aliquet turpis cursus mattis.
-Suspendisse accumsan neque eget facilisis blandit.
-Maecenas in justo id augue sodales faucibus.
-Pellentesque at nunc eu est porttitor facilisis a a quam.
-Aenean ut orci at sem bibendum tincidunt quis vitae orci.
-Integer sed enim sit amet metus pretium mattis.
-Praesent efficitur massa in augue pulvinar dignissim.
-Nulla id elit eget dui eleifend ullamcorper.
-Ut vitae enim accumsan, tempor nunc ut, auctor dui.
-Quisque et turpis sed felis posuere luctus at eget ex.
-Pellentesque ut justo ut velit malesuada imperdiet nec quis dolor.
+		
+		<div id="aboutText">
+			This website was created over the course of an student project for the HAW - Hamburg. It's main purpose 
+			was to find a way to display informations with database backing. For this reason we choose to roughly visualize the events
+			of World War 2. Therefore we would like to apologize for any historical inaccuracies, that may appear on out website.
+			
+		</div>
+ 
 	</body>
 </html>
