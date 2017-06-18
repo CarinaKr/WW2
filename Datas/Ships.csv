@@ -1,9 +1,10 @@
 Name;Nation;Class;Year_of_Launch;Fate
+Phoenix;United States;Brooklyn;1938;Sunk 2.5.1982
 Activity;United Kingdom;Activity;1942;Sold into merchant service 25.3.1946
+Hood;United Kingdom;Admiral;1918;Sunk 24.5.1941
 Admiral Hipper;Germany;Admiral Hipper;1937;Scuttled 2.5.1945
 Bluecher;Germany;Admiral Hipper;1937;Sunk 9.4.1940
 Prinz Eugen;Germany;Admiral Hipper;;Sunk 1946
-Hood;United Kingdom;Admiral;1918;Sunk 24.5.1941
 Agano;Japan;Agano;1941;Sunk 15.2.1944
 Noshiro;Japan;Agano;1942;Sunk 26.10.1944
 Sakawa;Japan;Agano;1944;Sunk 2.7.1946
@@ -12,7 +13,6 @@ Akagi;Japan;Akagi;1925;Sunk 5.6.1942
 Alaska;United States;Alaska;1943;Scrapped 1960
 Guam;United States;Alaska;1943;Scrapped August 1961
 Algerie;France;Algerie;1932;Scuttled 27.11.1942
-Archer;United Kingdom;Long Island;;Scrapped 1962
 Argus;United Kingdom;Argus;1917;Scrapped 1946
 Ark Royal;United Kingdom;Ark Royal;1937;Sunk 14.11.1941
 Atlanta;United States;Atlanta;1941;Sunk 13.11.1942
@@ -35,7 +35,6 @@ Provence;France;Bretagne;1913;Scuttled 27.11.1942
 Boise;United States;Brooklyn;;Scrapped 1978
 Honolulu;United States;Brooklyn;;Scrapped 1959
 Nashville;United States;Brooklyn;1937;Sol do Chile 1951
-Phoenix;United States;32600;1938;Sunk 2.5.1982
 Anzio;United States;Casablanca;1943;Sold for Scrap
 Casablanca;United States;Casablanca;1943;Scrapped 1947
 Corregidor;United States;Casablanca;1943;Scrapped 1959
@@ -96,6 +95,7 @@ Duquesne;France;Duquesne;1925;Condemned 1955
 Tourville;France;Duquesne;;Condemned 1962
 Eagle;United Kingdom;Eagle;1918;Sunk 11.8.1942
 Emden;Germany;Emden;1925;Scuttled 3.5.1945
+Emile Bertin;France;Emile Bertin;1933;Scrapped 1961
 Bunker Hill;United States;Essex;1942;Scrapped 1973
 Essex;United States;Essex;1942;Scrapped 1975
 Franklin;United States;Essex;1943;Scrapped 1964
@@ -149,15 +149,15 @@ Ise;Japan;Ise;1916;Sunk 28.7.1945
 Iwate;Japan;Izumo;1900;Sunk 26.7.1945
 Izumo;Japan;Izumo;1898;Sunk 24.7.1945
 Jeanne d'Arc;France;Jeanne d'Arc;;Scrapped 1965
+Karlsruhe;Germany;K;1927;Sunk 9.4.1940
+Koeln;Germany;K;1928;Sunk 3.3.1945
+Koenigsberg;Germany;K;1927;Sunk 10.4.1940
 Kaga;Japan;Kaga;1921;Sunk 4.6.1942
 Kaiyo;Japan;Kaiyo;1938;Scrapped 1.9.1946
 Kashii;Japan;Katori;1941;Sunk 12.01.1945
 Kashima;Japan;Katori;1939;Scrapped 1947
 Katori;Japan;Katori;1939;Sunk 18.2.1944
 Settsu;Japan;Kawachi;1911;Scrapped 1946
-Karlsruhe;Germany;K;1927;Sunk 9.4.1940
-Koeln;Germany;K;1928;Sunk 3.3.1945
-Koenigsberg;Germany;K;1927;Sunk 10.4.1940
 Centurion;United Kingdom;King George V (1911);1911;Sunk 7.6.1944
 Anson;United Kingdom;King George V (1939);;Scrapped 1957
 Duke of York;United Kingdom;King George V (1939);;Scrapped 1957
@@ -192,8 +192,8 @@ Leipzig;Germany;Leipzig;1929;Scuttled 11.7.1946
 Nuernberg;Germany;Leipzig;1934;Scrapped 1960
 Lexington;United States;Lexington;1925;Sunk 8.5.1942
 Saratoga;United States;Lexington;1925;Sunk 1946
+Archer;United Kingdom;Long Island;;Scrapped 1962
 Long Island;United States;Long Island;1940;Scrapped 1977
-Emile Bertin;France;Emile Bertin;1933;Scrapped 1961
 Kilkis;Greece;Mississippi;;Sunk 23.4.1941
 Lemnos;Greece;Mississippi;1905;Sunk 23.4.1941
 Kumano;Japan;Mogami;1936;Sunk 15.11.1944

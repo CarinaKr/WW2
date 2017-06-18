@@ -1,17 +1,17 @@
-Division_ID;Ship_Name;Anzahl
-8;Activity;
-47;Fuso;
-47;Yamashiro;
-47;Mogami;
-47;Ashigara;
-48;Mississippi;
-48;Maryland;
-48;Tennessee;
-48;California;
-48;Pennsylvania;
-48;Louiseville;
-48;Denver;
-48;Minneapolis;
-48;Columbia;
-48;Phoenix;
-48;Boise;
+Division_ID;Ship_Name;Ship_Class;Anzahl
+8;Activity;Activity;
+47;Fuso;Fuso;
+47;Yamashiro;Fuso;
+47;Mogami;Mogami;
+47;Ashigara;Myoko;
+48;Mississippi;New Mexico;
+48;Maryland;Colorado;
+48;Tennessee;Tennessee;
+48;California;Tennessee;
+48;Pennsylvania;Pennsylvania;
+48;Louisville;Northampton;
+48;Denver;Cleveland;
+48;Minneapolis;New Orleans;
+48;Columbia;Cleveland;
+48;Phoenix;Brooklyn;
+48;Boise;Brooklyn;

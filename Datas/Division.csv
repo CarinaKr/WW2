@@ -1,4 +1,4 @@
-ID;Name;Truppenstärke;Offizier;Fraktion;Type
+ID;Name;Truppenstaerke;Offizier;Fraktion;Type
 1;Sturzkampfgeschwader 76;29 Junker Ju 87B;Captain Walter Sigel;German;Land
 2;Sturzkampfgeschwader 2 Immermann;29 Stukas;Major Oskar Dinort;German;Land
 3;Luftwaffe;400 Bombers;Mayor General Wolfram von Richthofen;German;Land
@@ -7,7 +7,7 @@ ID;Name;Truppenstärke;Offizier;Fraktion;Type
 6;21. Panzer Division;;Generalmajor Georg von Bismarck;German;Land
 7;15. Panzer Division;;Eduard Crasemann;German;Land
 8;Panzerdivision Ariete;M13-Panzer;Erwin Rommel;Italy;Land
-;;;;;
+9;Panzerdivision Triese;;Gastone Gambara;Italy;Land
 ;;;;;
 ;;;;;
 ;;;;;

@@ -7,6 +7,7 @@ var zBattlesMarker=new Array();
 var zDivisionsMarker=new Array();
 var zTankDetails=new Array();
 var zShipDetails=new Array();
+var zDivisionNumbers;
 var zTankDetailsNumber;
 var zShipDetailsNumber;
 var zTankHashmap={};
@@ -39,22 +40,21 @@ var image = L.imageOverlay('Images/1939sep.png', bounds).addTo(map);
 
 map.setMaxBounds(bounds);
 var mark = L.icon({
-    iconUrl: 'Images/handle.jpg',
+    iconUrl: 'Images/board.png',
     iconSize:     [10,10], // size of the icon
     iconAnchor:   [5,5], // point of the icon which will correspond to marker's location
     popupAnchor:  [0,0] // point from which the popup should open relative to the iconAnchor
 });
-for(var i=0;i<36;i++)
-{
-	for(var j=0;j<24;j++)
-	{
-		var marker=L.marker([-j*50,i*50],{icon:mark}).addTo(map).bindPopup("x:"+i*50+", y:"+j*50).openPopup();
-	}
-}
+//for(var i=0;i<36;i++)
+//{
+//	for(var j=0;j<24;j++)
+//	{
+//		var marker=L.marker([-j*50,i*50],{icon:mark}).addTo(map).bindPopup("x:"+i*50+", y:"+j*50).openPopup();
+//	}
+//}
 
 
 
-//create popup
 var operationIcon = L.icon({
     iconUrl: 'Images/ArrowIcon.png',
     iconSize:     [26,26], // size of the icon
@@ -86,11 +86,6 @@ var popupOperations =
     'width': '200',
     'className' : 'popupCustom'
 }
-
-var marker=L.marker([-150,150], {icon: greenIcon}).addTo(map);
-
-//add popup to marker
-marker.bindPopup("<b>Hello world!</b><br>I am a popup.");
 
 function setOperations(data)
 {
@@ -141,24 +136,34 @@ function setBattles(data)
 function setDivisions(data)
 {
 	//alert(data);
-	zDivisionsMarker=[];
-	if(zDivisionsLayer!=null)
-	{map.removeLayer(zDivisionsLayer);}
-	zShipDetailsNumber=0;
-	zTankDetailsNumber=0;
-	zShipDetails=[];
-	zTankDetails=[];
+//	zDivisionsMarker=[];
+//	if(zDivisionsLayer!=null)
+//	{map.removeLayer(zDivisionsLayer);}
 	
-	zAktuelleDivisions=JSON.parse(data);
-	for(var i=0;i<zAktuelleDivisions.length;i++)
+//	zShipDetailsNumber=0;
+//	zTankDetailsNumber=0;
+//	zShipDetails=[];
+//	zTankDetails=[];
+	
+	var json=new Array();
+	if(data!="")
+	{
+		json=JSON.parse(data);
+		for(q=0;q<json.length;q++)
+		{
+			zAktuelleDivisions[zDivisionNumbers+q]=json[q];	
+		}
+		//zAktuelleDivisions=JSON.parse(data);
+	}
+	for(var i=zDivisionNumbers;i<zDivisionNumbers+json.length;i++)
 	{
 		var pY=zAktuelleDivisions[i].PlaceY;
-		pY=(parseInt(pY)+13-((i%2)*26)).toString();
+		pY=(parseInt(pY)+10-((i%2)*20)).toString();
 		var pX=zAktuelleDivisions[i].PlaceX;
 		if(i<2)
-		{pX=(parseInt(pX)+13).toString();}
+		{pX=(parseInt(pX)+10).toString();}
 		else
-		{pX=(parseInt(pX)-13).toString();}
+		{pX=(parseInt(pX)-10).toString();}
 		
 		if(zAktuelleDivisions[i].Type=="Land")
 		{zDivisionsMarker[i]=L.marker([pY,pX],{icon:tanksIcon,rotationAngle:0}).addTo(map);}
@@ -174,72 +179,91 @@ function setDivisions(data)
 			//alert(ships);
 			var pShips=new Array();
 			if(ships!="")
-			{pShips=JSON.parse(ships);}
-			var pNummer=parseInt(pShips[pShips.length-1].nummer);
+			{
+				pShips=JSON.parse(ships);
+			}
+			var pDivNum=parseInt(pShips[pShips.length-1].nummer);
 			
 			for(j=zShipDetailsNumber;j<zShipDetailsNumber+pShips.length-1;j++)
 			{
-				
+				var k=j-zShipDetailsNumber;
 				zShipDetails[j]=L.popup(popupOperations).setLatLng([pY,pX]);
-				zShipDetails[j].setContent("<b>"+pShips[j].Name+"</b>"+
-										"<br> Class: "+pShips[j].Class+
-										"<br> Nation: "+pShips[j].Nation+
-										"<br> Year of Launch: "+pShips[j].Year_of_Launch+
-										"<br> Fate: "+pShips[j].Fate+
-										"<br> Displacement: "+pShips[j].Displacement+" tons"+
-										"<br> Length: "+pShips[j].Length+" meter"+
-										"<br> Beam: "+pShips[j].Beam+" meter"+
-										"<br> Speed: "+pShips[j].Speed+" knots"+
-										"<br> Crew: "+pShips[j].Crew+
-										"<br> Armor: "+pShips[j].Armor+" mm"+
-										"<br> Main: "+pShips[j].Main);
-				zPopupString[pNummer]+="<br><a href='#' class='Link_Ship"+pNummer+""+j+"'>"+pShips[j].Name+" of "+pShips[j].Class+"-class</a>";
-				zShipHashmap['Link_Ship'+pNummer+""+j]=j.toString();
-				zPopupContainer[pNummer].on('click','.Link_Ship'+pNummer+""+j,function(){
+				zShipDetails[j].setContent("<b>"+pShips[k].Name+"</b>"+
+										"<br> Class: "+pShips[k].Class+
+										"<br> Nation: "+pShips[k].Nation+
+										"<br> Year of Launch: "+pShips[k].Year_of_Launch+
+										"<br> Fate: "+pShips[k].Fate+
+										"<br> Displacement: "+pShips[k].Displacement+" tons"+
+										"<br> Length: "+pShips[k].Length+" meter"+
+										"<br> Beam: "+pShips[k].Beam+" meter"+
+										"<br> Speed: "+pShips[k].Speed+" knots"+
+										"<br> Crew: "+pShips[k].Crew+
+										"<br> Armor: "+pShips[k].Armor+" mm"+
+										"<br> Main: "+pShips[k].Main);
+				zPopupString[pDivNum]+="<br><a href='#' class='Link_Ship"+pDivNum+""+j+"'>"+pShips[k].Name+" of "+pShips[k].Class+"-class</a>";
+				zShipHashmap['Link_Ship'+pDivNum+""+j]=j.toString();
+				zPopupContainer[pDivNum].on('click','.Link_Ship'+pDivNum+""+j,function(){
 //					var test0=this.className;
 //					var test=zShipHashmap[this.className];
 					zShipDetails[zShipHashmap[this.className]].openOn(map);
 				});
 			  }
+			zShipDetailsNumber+=pShips.length-1;
 			
-			zPopupString[pNummer]+="<br>Tanks: ";
-			$.post("PHP/db-requests.php",{type:"tanks", division:zAktuelleDivisions[pNummer].ID,nummer:pNummer},function(tanks){
+			zPopupString[pDivNum]+="<br>Tanks: ";
+			$.post("PHP/db-requests.php",{type:"tanks", division:zAktuelleDivisions[pDivNum].ID,nummer:pDivNum},function(tanks)
+			{
 				var pTanks=new Array();
 				if(tanks!="")
 				{pTanks=JSON.parse(tanks);}
-				var pNummer=parseInt(pTanks[pTanks.length-1].nummer);
+				var pDivNum=parseInt(pTanks[pTanks.length-1].nummer);
 				
 				for(k=zTankDetailsNumber;k<zTankDetailsNumber+pTanks.length-1;k++)
 				{
-					
+					var l=k-zShipDetailsNumber;
 					zTankDetails[k]=L.popup(popupOperations).setLatLng([pY,pX]);
-					zTankDetails[k].setContent("<b>"+pTanks[k].Name+"</b>"+
-											"<br> Primary Role: "+pTanks[k].Primary_Role+
-											"<br> Nation: "+pTanks[k].Nation+
-											"<br> Designed: "+pTanks[k].Designed+
-											"<br> No. build: "+pTanks[k].No_built+
-											"<br> Weight: "+pTanks[k].Weight+
-											"<br> Length: "+pTanks[k].Length+
-											"<br> Width: "+pTanks[k].Width+
-											"<br> Height: "+pTanks[k].Height+
-											"<br> Crew: "+pTanks[k].Crew+
-											"<br> Armor: "+pTanks[k].Armor+
-											"<br> Main: "+pTanks[k].Main+
-											"<br> Speed: "+pTanks[k].Speed);
-					zPopupString[pNummer]+="<br><a href='#' class='Link_Tank"+pNummer+""+k+"'>"+pTanks[k].Name+"</a>";
-					zTankHashmap['Link_Tank'+pNummer+k]=k.toString();
-					zPopupContainer[pNummer].on('click','.Link_Tank'+pNummer+k,function(k){
+					zTankDetails[k].setContent("<b>"+pTanks[l].Name+"</b>"+
+											"<br> Primary Role: "+pTanks[l].Primary_Role+
+											"<br> Nation: "+pTanks[l].Nation+
+											"<br> Designed: "+pTanks[l].Designed+
+											"<br> No. build: "+pTanks[l].No_built+
+											"<br> Weight: "+pTanks[l].Weight+
+											"<br> Length: "+pTanks[l].Length+
+											"<br> Width: "+pTanks[l].Width+
+											"<br> Height: "+pTanks[l].Height+
+											"<br> Crew: "+pTanks[l].Crew+
+											"<br> Armor: "+pTanks[l].Armor+
+											"<br> Main: "+pTanks[l].Main+
+											"<br> Speed: "+pTanks[l].Speed);
+					zPopupString[pDivNum]+="<br><a href='#' class='Link_Tank"+pDivNum+""+k+"'>"+pTanks[l].Name+"</a>";
+					zTankHashmap['Link_Tank'+pDivNum+k]=k.toString();
+					zPopupContainer[pDivNum].on('click','.Link_Tank'+pDivNum+k,function(k){
 						zTankDetails[zTankHashmap[this.className]].openOn(map);
 					});
 				}
+				zTankDetailsNumber+=pTanks.length-1;
 				
-				zPopupString[pNummer]+="<br>Other: "+zAktuelleDivisions[pNummer].Truppenstaerke+"</div>";
-				zPopupContainer[pNummer].html(zPopupString[pNummer]);
-				zDivisionsMarker[pNummer].bindPopup(zPopupContainer[pNummer][0],popupOperations);
+				zPopupString[pDivNum]+="<br>Other: "+zAktuelleDivisions[pDivNum].Truppenstaerke+"</div>";
+				zPopupContainer[pDivNum].html(zPopupString[pDivNum]);
+				zDivisionsMarker[pDivNum].bindPopup(zPopupContainer[pDivNum][0],popupOperations);
 				zDivisionsLayer=L.layerGroup(zDivisionsMarker).addTo(map);	
 			});	
 		});	
 	}
+	zDivisionNumbers+=json.length;
+	
 }
 
+function resetDivisions()
+{
+	zShipDetailsNumber=0;
+	zTankDetailsNumber=0;
+	zDivisionNumbers=0;
+	zShipDetails=[];
+	zTankDetails=[];
+	zDivisionsMarker=[];
+	zAktuelleDivisions=[];
+	if(zDivisionsLayer!=null)
+	{map.removeLayer(zDivisionsLayer);}
+}
 
