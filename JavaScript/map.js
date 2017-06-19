@@ -231,7 +231,7 @@ function setDivisions(data)
 											"<br> Weight: "+pTanks[l].Weight+
 											"<br> Length: "+pTanks[l].Length+
 											"<br> Width: "+pTanks[l].Width+
-											"<br> Height: "+pTanks[l].Height+
+											"<br> Height: "+pTanks[l].Heigth+
 											"<br> Crew: "+pTanks[l].Crew+
 											"<br> Armor: "+pTanks[l].Armor+
 											"<br> Main: "+pTanks[l].Main+

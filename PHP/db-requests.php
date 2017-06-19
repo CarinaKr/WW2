@@ -186,5 +186,27 @@ if($_POST['type']==='shipsAll')
 	if($json_array!=null)
 	{echo $json_array;}
 }
+if($_POST['type']==='tanksAll')
+{
+	$sql = "SELECT
+				    *
+				FROM
+				    Tanks";
+	$result = $conn->query($sql);
+	$json_array=null;
+	if ($result->num_rows > 0) {
+		// output data of each row
+		$results=array();
+		while($row = $result->fetch_assoc()) {
+			$results[]=$row;
+		}
+		//$results[]=array('nummer'=>$_POST['nummer']);
+		//$json_array = json_encode($results);
+	}
+	
+	$json_array = json_encode($results);
+	if($json_array!=null)
+	{echo $json_array;}
+}
 
 
