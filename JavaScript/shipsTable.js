@@ -71,4 +71,5 @@ function loadTable(allData){
 	]
 	})	
 	//$(ships.tables().header()).addClass('bla');
+	
 }
