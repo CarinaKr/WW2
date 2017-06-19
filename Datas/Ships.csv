@@ -168,6 +168,7 @@ Hiryu;Japan;Soryu;1937;Sunk 5.6.1942
 Tone;Japan;Tone;1937;Sunk 14.7.1945
 Littorio;Italy;Vittorio Veneto;1937;Scrapped 1948
 Vittorio Veneto;Italy;Vittorio Veneto;1937;Scrapped 1948
+Prinz Eugen;Germany;Admiral Hipper;1938;Sunk 1946
 Phoenix;United States;Brooklyn;1938;Sunk 2.5.1982
 Graf Zeppelin;Germany;Graf Zeppelin;1938;Scruttled 16.8.1947
 Kaiyo;Japan;Kaiyo;1938;Scrapped 1.9.1946
@@ -284,48 +285,47 @@ Missouri;United States;Iowa;1944;Musium Ship
 Kaganovich;Russia;Kirov;1944;Sold for scrap 6.2.1960
 Shinano;Japan;Shinano;1944;Sunk 29.11.1944
 De Grasse;France;De Grasse;1946;Scrapped 1974
-Prinz Eugen;Germany;Admiral Hipper;1938;Sunk 1946
-Boston;United States;Baltimore;;Scrapped 1975
-Helena ;United States;Baltimore;;Sold for Scrap 13.11.1974
-Quincy ;United States;Baltimore;;Scrapped 1974
-Bearn;France;Bearn;;Scrapped March 1967
-Boise;United States;Brooklyn;;Scrapped 1978
-Honolulu;United States;Brooklyn;;Scrapped 1959
-Nehenta Bay;United States;Casablanca;;Sold for Scrap 29.6.1960
-Saginaw Bay;United States;Casablanca;;Sold for Scrap 27.11.1959
-Astoria;United States;Cleveland;;Scrapped 1971
-Pasadena;United States;Cleveland;;Scrapped 1970
-Maryland;United States;Colorado;;Scrapped 1959
-West Virginia;United States;Colorado;;Scrapped 1959
-Australia;Australia;County;;Scrapped 1955
-Canberra ;Australia;County;;Scuttled 9.8.1942
-Courageous;United Kingdom;Courageous;;Scunk 17.9.1939
-Primauguet;France;Duguay-Trouin;;Scuttled 8.11.1942
-Tourville;France;Duquesne;;Condemned 1962
+Boston;United States;Baltimore;1943;Scrapped 1975
+Helena ;United States;Baltimore;1939;Sold for Scrap 13.11.1974
+Quincy ;United States;Baltimore;1943;Scrapped 1974
+Bearn;France;Bearn;1927;Scrapped March 1967
+Boise;United States;Brooklyn;1938;Scrapped 1978
+Honolulu;United States;Brooklyn;1938;Scrapped 1959
+Nehenta Bay;United States;Casablanca;1944;Sold for Scrap 29.6.1960
+Saginaw Bay;United States;Casablanca;1944;Sold for Scrap 27.11.1959
+Astoria;United States;Cleveland;1944;Scrapped 1971
+Pasadena;United States;Cleveland;1944;Scrapped 1970
+Maryland;United States;Colorado;1921;Scrapped 1959
+West Virginia;United States;Colorado;1923;Scrapped 1959
+Australia;Australia;County;1928;Scrapped 1955
+Canberra ;Australia;County;1943;Scuttled 9.8.1942
+Courageous;United Kingdom;Courageous;1916;Scunk 17.9.1939
+Primauguet;France;Duguay-Trouin;1927;Scuttled 8.11.1942
+Tourville;France;Duquesne;1928;Condemned 1962
 Haichen;China;Hairong;;
 Haiqi;China;Haitien;;
-Jeanne d'Arc;France;Jeanne d'Arc;;Scrapped 1965
-Anson;United Kingdom;King George V (1939);;Scrapped 1957
-Duke of York;United Kingdom;King George V (1939);;Scrapped 1957
-Prince of Wales;United Kingdom;King George V (1939);;Sunk 10.12.1941
-Hiei;Japan;Kongo;;Sunk 14.11.1942
-La Galissonniere;France;La Galissonniere;;Scuttled 27.11.1942
-Gloire;France;La Galissonniere;;Scrapped 1958
-Hobart;Australia;Leander;;Scrapped 1962
-Archer;United Kingdom;Long Island;;Scrapped 1962
-Kilkis;Greece;Mississippi;;Sunk 23.4.1941
-Oklahoma;United States;Nevada;;Sunk 7.12.1941
-Mississippi;United States;New Mexico;;Sold for Scrap 1956
-San Francisco;United States;New Orleans;;Scrapped 1959
-Raleigh;United States;Omaha;;Scrapped 1946
-Ranger;United States;Ranger;;Scrapped 1947
-Renown;United Kingdom;Renown;;Scrapped 1948
-Repulse;United Kingdom;Renown;;Sunk 10.12.1941
-Resolution;United Kingdom;Revenge;;Scrapped 1949
-Shinyo;Japan;Shinyo;;Sunk 17.11.1944
-Suffren;France;Suffren;;Scrapped 1974
-California;United States;Tennessee;;Scrapped 1959
-Tennessee;United States;Tennessee;;Scrapped 1959
+Jeanne d'Arc;France;Jeanne d'Arc;1931;Scrapped 1965
+Anson;United Kingdom;King George V (1939);1942;Scrapped 1957
+Duke of York;United Kingdom;King George V (1939);1940;Scrapped 1957
+Prince of Wales;United Kingdom;King George V (1939);1941;Sunk 10.12.1941
+Hiei;Japan;Kongo;1914;Sunk 14.11.1942
+La Galissonniere;France;La Galissonniere;1936;Scuttled 27.11.1942
+Gloire;France;La Galissonniere;1937;Scrapped 1958
+Hobart;Australia;Leander;1938;Scrapped 1962
+Archer;United Kingdom;Long Island;1941;Scrapped 1962
+Kilkis;Greece;Mississippi;1908;Sunk 23.4.1941
+Oklahoma;United States;Nevada;1916;Sunk 7.12.1941
+Mississippi;United States;New Mexico;1917;Sold for Scrap 1956
+San Francisco;United States;New Orleans;1934;Scrapped 1959
+Raleigh;United States;Omaha;1924;Scrapped 1946
+Ranger;United States;Ranger;1934;Scrapped 1947
+Renown;United Kingdom;Renown;1916;Scrapped 1948
+Repulse;United Kingdom;Renown;1916;Sunk 10.12.1941
+Resolution;United Kingdom;Revenge;1916;Scrapped 1949
+Shinyo;Japan;Shinyo;1943;Sunk 17.11.1944
+Suffren;France;Suffren;1930;Scrapped 1974
+California;United States;Tennessee;1921;Scrapped 1959
+Tennessee;United States;Tennessee;1920;Scrapped 1959
 Tongji;China;Tongji;;
-Fiume;Italy;Zara;;Sunk 29.3.1941
-Pola;Italy;Zara;;Sunk 28.3.1941
+Fiume;Italy;Zara;1931;Sunk 29.3.1941
+Pola;Italy;Zara;1932;Sunk 28.3.1941
