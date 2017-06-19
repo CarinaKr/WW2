@@ -70,6 +70,39 @@ if($_POST['type']==='divisions-via-operations')
 	if($json_array!=null)
 	{echo $json_array;}
 }
+if($_POST['type']==='divisions-via-battles')
+{
+	$sql = "SELECT
+			    Division.ID,
+			    Division.Name,
+			    Division.Truppenstaerke,
+			    Division.Offizier,
+				Division.Type,
+			    UsedBattles.PlaceY,
+			    UsedBattles.PlaceX
+			FROM
+			    Division,
+			    UsedBattles,
+			    Zwischentabelle_Division_Battle
+			WHERE
+			    UsedBattles.Date =" .$_POST['year']."
+			        AND UsedBattles.Name = Zwischentabelle_Division_Battle.Battle_Name
+			        AND Division.ID = Zwischentabelle_Division_Battle.Division_ID;";
+	$result = $conn->query($sql);
+	$json_array=null;
+	if ($result->num_rows > 0) {
+		// output data of each row
+		$results=array();
+		while($row = $result->fetch_assoc()) {
+			$results[]=$row;
+		}
+		$json_array = json_encode($results);
+	} else {
+		//echo "0 results";
+	}
+	if($json_array!=null)
+	{echo $json_array;}
+}
 if($_POST['type']==='tanks')
 {
 	$sql = "SELECT 
@@ -127,3 +160,31 @@ if($_POST['type']==='ships')
 	if($json_array!=null)
 	{echo $json_array;}
 }
+
+if($_POST['type']==='shipsAll')
+{
+	$sql = "SELECT 
+				    *
+				FROM
+				    Ships,
+				    ShipsClass
+				WHERE
+				    Ships.Class = ShipsClass.Class";
+	$result = $conn->query($sql);
+	$json_array=null;
+	if ($result->num_rows > 0) {
+		// output data of each row
+		$results=array();
+		while($row = $result->fetch_assoc()) {
+			$results[]=$row;
+		}
+		//$results[]=array('nummer'=>$_POST['nummer']);
+		//$json_array = json_encode($results);
+	}
+	
+	$json_array = json_encode($results);
+	if($json_array!=null)
+	{echo $json_array;}
+}
+
+

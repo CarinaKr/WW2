@@ -2,11 +2,36 @@
 <html>
 
 	<?php include 'PHP/head.php';?>
+	<link rel="stylesheet" type="text/css" href="css/datatable.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
 	<body>		
 		<?php include 'PHP/header.php';	?>
+		<div id="shipsTable">
+			<table id="ships" class="bla">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Class</th>
+					<th>Type</th>
+					<th>Nation</th>
+					<th>Year of Launch</th>
+					<th>Fate</th>
+					<!-- <th>Displacement</th> -->
+					<th>Length [m]</th>
+					<th>Beam [m]</th>
+					<th>Speed [kn]</th>
+					<th>Crew</th>
+					<th>Main</th>
+					 <th>Armour</th> 
+				</tr>
+			</thead>
+			
+		</table>
+		</div>
 		
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+		
+		<!--  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Proin ornare mauris imperdiet ante molestie scelerisque.
 Donec varius erat vel lorem sagittis, sed suscipit orci euismod.
 Cras ultrices elit ac nunc laoreet, ac commodo libero lobortis.
@@ -21,7 +46,11 @@ Praesent efficitur massa in augue pulvinar dignissim.
 Nulla id elit eget dui eleifend ullamcorper.
 Ut vitae enim accumsan, tempor nunc ut, auctor dui.
 Quisque et turpis sed felis posuere luctus at eget ex.
-Pellentesque ut justo ut velit malesuada imperdiet nec quis dolor.
+Pellentesque ut justo ut velit malesuada imperdiet nec quis dolor.-->
 		
+		
+		<script type="text/javascript" src="JavaScript/jquery.js"></script>
+		<script type="text/javascript" src="JavaScript/datatable.js"></script>
+		<script type="text/javascript" src="JavaScript/shipsTable.js"></script>
 	</body>
 </html>

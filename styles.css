@@ -41,14 +41,14 @@ li.navElement {
 
 }
 
-a.navBox {
+a.navBoxes {
 	margin-left: -100px;
 	display: block;
 	text-align: center;
 	text-decoration: none;
 }
 
-a.navBox:HOVER {
+a.navBoxes:HOVER {
 	background-color: #4d1d07;
 }
 
@@ -185,7 +185,22 @@ color: #726204;
   background-size: 80px 30px!important;
   background-repeat: no-repeat;
   background-position: center;
-  
-  
 }
 
+
+#shipsTable{
+	position: absolute;
+	left: 10%;
+	right: 10%;
+	top: 11%;
+	bottom: 20%;
+	overflow-x: hidden;
+	height: 83%;
+	width: 80%;
+	z-index: 0;
+}
+.bla{
+	 background: #e0e0e0;
+    color: #234c5e;
+    background-image:url("Images/VintagePaper.jpg");
+}

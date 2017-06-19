@@ -190,6 +190,7 @@ function setDivisions(data)
 				zShipDetails[j]=L.popup(popupOperations).setLatLng([pY,pX]);
 				zShipDetails[j].setContent("<b>"+pShips[k].Name+"</b>"+
 										"<br> Class: "+pShips[k].Class+
+										"<br> Type: "+pShips[k].Type+
 										"<br> Nation: "+pShips[k].Nation+
 										"<br> Year of Launch: "+pShips[k].Year_of_Launch+
 										"<br> Fate: "+pShips[k].Fate+
