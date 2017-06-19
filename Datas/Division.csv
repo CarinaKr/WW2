@@ -1,4 +1,4 @@
-ID;Name;Truppenstaerke;Offizier;Fraktion;Type
+﻿ID;Name;Truppenstärke;Offizier;Fraktion;Type
 1;Sturzkampfgeschwader 76;29 Junker Ju 87B;Captain Walter Sigel;German;Land
 2;Sturzkampfgeschwader 2 Immermann;29 Stukas;Major Oskar Dinort;German;Land
 3;Luftwaffe;400 Bombers;Mayor General Wolfram von Richthofen;German;Land
@@ -8,6 +8,35 @@ ID;Name;Truppenstaerke;Offizier;Fraktion;Type
 7;15. Panzer Division;;Eduard Crasemann;German;Land
 8;Panzerdivision Ariete;M13-Panzer;Erwin Rommel;Italy;Land
 9;Panzerdivision Triese;;Gastone Gambara;Italy;Land
+10;Deutsches Heer;1000 Tanks, 14000 Guns, 549 Aircraft;Fedor von Bock;German;Land
+11;Red Army;3232 Tanks, 7600 Guns, 936 Aircraft;Georgy Zhukov;UdSSR;Land
+12;Deutsches Heer;70 Tanks, 500 Aircraft;Erwin Rommel;German;Land
+13;Italian Royal Army;70 Tanks, 500 Aircraft;Enea Navarini;Italy;Land
+14;British Commonwealth;179 Tanks, 1000 Artillery, 1500 Aircraft;Claude Auchinleck;British;Land
+15;Deutsches Heer;725000 Units;W. Ritter von Leeb;German;Land
+16;Red Army;930000 Units;Margian Popov;UdSSR;Land
+17;Red Army;6250 Tanks, 7500 Aircraft, 41600 Artillery;Georgy Zhukov;UdSSR;Land
+18;Deutsches Heer;1519 AFV, 2224 Aircraft, 9303 Artilliery;Gotthard Heinrici;German;Land
+19;Imperial Japanese Army;73 Tanks, 64 Tankettes, 400 Aircraft;Michitaro Komatsubara;Japan;Land
+20;Red Army;550 Tanks, 900 Aircraft, 634 Artillery;Grigoriy Shtern;UdSSR;Land
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
 ;;;;;
 ;;;;;
 ;;;;;

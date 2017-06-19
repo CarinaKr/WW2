@@ -1,0 +1,55 @@
+body {
+  voice-family: "\"}\"";
+  voice-family: inherit;
+} 
+
+/* Banner */
+#banner {
+	/* top: 17px;
+	width: 765px; */
+	top: 20px;
+	width: 915;
+}
+
+/* Nav */
+#nav {
+	/* width: 765px; */
+	width: 915px;
+}
+
+/* Column Structure */
+#content {
+	/* width: 765px; */
+	width: 915px;
+}
+
+.maincol {
+	float: left;
+	/* width: 572px; */
+	width: 682px;
+}
+
+.maincolfull {
+	float: left;
+	/* width: 765px; */
+	width: 915px;
+}
+
+.xcol {
+	float: right;
+	/* width: 160px; */
+	/* width: 310px; */
+	width: 200px;
+}
+  
+/* Footer */
+#footer {
+	clear: both;
+	/* width: 735px; */
+	width: 915px;
+	margin: 0 auto 0 auto;
+}
+
+#footer .hide {
+	display: none;
+}

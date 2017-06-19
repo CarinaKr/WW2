@@ -1,0 +1,19 @@
+ID;Name;Year;PlaceY;PlaceX;Direction;Text;Teilnehmer1;Teilnehmer2
+1;Fall Rot;1939;-450;950;0;German bombing of Wielun, Poland, part of Fall Weiss;Germany;
+2;Fall Weiss;1939;-400;900;0;German invasion of Poland;Germany;
+3;Operation A-Bewegung;1939;-350;850;0;German preparation for the invasion of Poland, part of Fall Weiss;Germany;
+4;Operation Dirschau;1939;-300;800;0;German operation to safeguard the rail bridge at Tczew, Poland during the invasion;Germany;
+5;Operation Himmler;1939;-250;750;0;German staged attacks in Poland to justify invasion, part of Fall Weiss;Germany;
+6;Operation Ost;1939;-200;700;0;German operation in Southern Poland near the border with Czechoslovakia;Germany;
+7;Operation Sonderaktion Krakau;1939;-150;650;0;German operation to murder members of the intelligentsia at univerisites in Krakow, Poland;Germany;
+8;Operation Tannenberg;1939;-450;950;0;German plan to exterminate Polish intelligentsia;Germany;
+9;Operation Wasserkante;1939;-400;900;0;German aerial bombing of Warsaw, Poland;Germany;
+10;Operation Peking;1939;-350;850;0; Polish naval withdraw to Britain prior to German invasion;Poland;
+11;Operation Worek;1939;-300;800;0; Polish naval defense of the Polish coast;Poland;
+12;Operation Aida;1942;-450;1000;0;Axis attacks in Egypt and Libya with aim on Tobruk, Lybia;Germany;Italy
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+46;Operation Market Garden;1944;-400;900;90;Failed Allied attempt to secure bridges over the main rivers of Netherlands;United Kingdom;
