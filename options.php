@@ -3,12 +3,11 @@
 
 	<?php include 'PHP/head.php';?>
 	<link rel="stylesheet" type="text/css" href="css/datatable.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
 	<body>		
 		<?php include 'PHP/header.php';	?>
 		<div id="shipsTable">
-			<table id="ships" class="bla">
+			<table id="ships" class="tableShips">
 			<thead>
 				<tr>
 					<th>Name</th>
@@ -29,7 +28,6 @@
 			
 		</table>
 		</div>
-		
 		
 		<!--  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Proin ornare mauris imperdiet ante molestie scelerisque.

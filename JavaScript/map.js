@@ -144,7 +144,7 @@ function setDivisions(data)
 //	zTankDetailsNumber=0;
 //	zShipDetails=[];
 //	zTankDetails=[];
-	
+	alert(data);
 	var json=new Array();
 	if(data!="")
 	{

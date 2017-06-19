@@ -71,5 +71,5 @@ function loadTable(allData){
 	]
 	})	
 	//$(ships.tables().header()).addClass('bla');
-	
+	$(ships.label()).addClass('labelTable');
 }
