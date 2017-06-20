@@ -40,10 +40,10 @@ ID;Name;Truppenstaerke;Offizier;Fraktion;Type
 ;;;;;
 ;;;;;
 ;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
+42;German Forces;450.000 troops, 1500 tanks;Adolf Hitler;German;Land
+43;American Forces;610.000 men;Dwight D. Eisenhower;United States;Land
+44;8th Army;180.000 men;Lieutenant-General Oliver Leese;United Kingdom;Land
+45;10th Army;140.000 men plus unknown tanks and airplanes;Generalmajor Dietrich Beelitz;German;Land
 46;First Allied Airborne Army;All British airforces plus the Polish first Parachute Brigade;Richard Nelson Gale;Allies;Land
 47;Japanese Naval forces;1 Aricraft Carriers, 3 Light Arcraft Carriers, 8 Battleships, 13 Heavy Cruisers, 6 Light Cruisers, 31 Destroyers ;Ozawa;Japanese;Wasser
 48;Alliiert Naval forces;8 Aricraft Carriers, 8 Light Arcraft Carriers, 10 Battleships, 9 Heavy Cruisers, 13 Light Cruisers, 105 Destroyers ;Ohlendorf;Allies;Wasser
