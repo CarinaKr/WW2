@@ -35,11 +35,11 @@ ID;Name;Truppenstaerke;Offizier;Fraktion;Type
 34;;;;;
 35;;;;;
 36;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
+37;87. US-Division;20.000 men;Kenneth Anderson;United States;Land
+38;1. US-Panzerdivision;18.500 men;Generalmajor Lloys Fredenall;United States;Land
+39;Western Naval Task Force;35.000 soldiers;Generalmajor George S. Patton;United States;Land
+40;US Aircraft Carriers;2 fleet aircraft carriers, 9 cruisers, 13 destroyers, 2 oilers, 1 seaplane tender, 128 carrier aircrafts;Chester W. Nimitz;United States;Wasser
+41;Japanese Aircraft Carriers;2 fleet aircraft carriers, 1 light carrier, 9 cruisers, 15 destroyers, 5 minesweepers, 2 submarine chasers, 3 gunboats, 1 oil tanker, 1 seaplane tender, 12 transports, 127 carrier aircrafts;Isoroku Yamaoto;Japanese;Wasser
 42;German Forces;450.000 troops, 1500 tanks;Adolf Hitler;German;Land
 43;American Forces;610.000 men;Dwight D. Eisenhower;United States;Land
 44;8th Army;180.000 men;Lieutenant-General Oliver Leese;United Kingdom;Land
