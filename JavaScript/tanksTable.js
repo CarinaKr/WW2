@@ -23,6 +23,7 @@ function loadTable(allData){
 //		info: false,
 //		scrollY: true,
 //		scrollX: false,
+	    "pageLength": 25,
 		
 		columnDefs: [
 			{"width": "5%"}

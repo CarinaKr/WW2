@@ -39,12 +39,29 @@ var bounds = new L.LatLngBounds(northWest, southEast);
 var image = L.imageOverlay('Images/1939sep.png', bounds).addTo(map);
 
 map.setMaxBounds(bounds);
-var mark = L.icon({
-    iconUrl: 'Images/board.png',
-    iconSize:     [10,10], // size of the icon
-    iconAnchor:   [5,5], // point of the icon which will correspond to marker's location
-    popupAnchor:  [0,0] // point from which the popup should open relative to the iconAnchor
-});
+
+var legend = L.control({position: 'topright'});
+	legend.onAdd = function (map) {
+	var div = L.DomUtil.create('div', 'info legend');
+	div.innerHTML= '<i style="background:#ff6666"></i>UDSSR<br>'+
+				   '<i style="background:#660000"></i>Axes<br>'+
+				   '<i style="background:#003366"></i>Allies<br>'+
+				   '<i style="background-image:url(Images/ArrowIconSmall.png)"></i>Operations<br>'+
+				   '<i style="background-image:url(Images/BattleIconSmall.png)"></i>Battles<br>'+
+				   '<i style="background-image:url(Images/DivisionIconSmall.png)"></i>Land Divisions<br>'+
+				   '<i style="background-image:url(Images/ShipsIconSmall.png)"></i>Navel Divisions<br>';;
+    
+
+	return div;
+};
+legend.addTo(map);
+
+//var mark = L.icon({
+//    iconUrl: 'Images/board.png',
+//    iconSize:     [10,10], // size of the icon
+//    iconAnchor:   [5,5], // point of the icon which will correspond to marker's location
+//    popupAnchor:  [0,0] // point from which the popup should open relative to the iconAnchor
+//});
 //HelpNodes für Placing
 //for(var i=0;i<36;i++)
 //{
@@ -187,7 +204,8 @@ function setDivisions(data)
 			for(j=zShipDetailsNumber;j<zShipDetailsNumber+pShips.length-1;j++)
 			{
 				var k=j-zShipDetailsNumber;
-				zShipDetails[j]=L.popup(popupOperations).setLatLng([pY,pX]);
+				var latlng=zDivisionsMarker[pDivNum].getLatLng();
+				zShipDetails[j]=L.popup(popupOperations).setLatLng(latlng);
 				zShipDetails[j].setContent("<b>"+pShips[k].Name+"</b>"+
 										"<br> Class: "+pShips[k].Class+
 										"<br> Type: "+pShips[k].Type+
@@ -221,8 +239,9 @@ function setDivisions(data)
 				
 				for(k=zTankDetailsNumber;k<zTankDetailsNumber+pTanks.length-1;k++)
 				{
-					var l=k-zShipDetailsNumber;
-					zTankDetails[k]=L.popup(popupOperations).setLatLng([pY,pX]);
+					var l=k-zTankDetailsNumber;
+					var latlng=zDivisionsMarker[pDivNum].getLatLng();
+					zTankDetails[k]=L.popup(popupOperations).setLatLng(latlng);
 					zTankDetails[k].setContent("<b>"+pTanks[l].Name+"</b>"+
 											"<br> Primary Role: "+pTanks[l].Primary_Role+
 											"<br> Nation: "+pTanks[l].Nation+

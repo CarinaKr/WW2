@@ -6,6 +6,7 @@
 
 	<body>		
 		<?php include 'PHP/header.php';	?>
+		
 		<div id="shipsTable">
 			<table id="tanks" class="tableShips">
 			<thead>
@@ -20,7 +21,7 @@
 					<th>Speed</th>
 					<th>Crew</th>
 					<th>Main</th>
-					 <th>Armour</th> 
+					<th>Armour</th> 
 				</tr>
 			</thead>
 			

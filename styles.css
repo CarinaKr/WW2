@@ -88,7 +88,7 @@ a:ACTIVE {
 	right: 86%;
 	top: 8%;
 	height: 79%;
-	width: 4%;
+	width: 3%;
 	z-index: 1;
 }
 
@@ -102,9 +102,37 @@ a:ACTIVE {
 	width: 80%;
 	z-index: 0;
 }
-#aboutText {
-	position: relative;
+
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
 }
+.legend
+{
+	line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 1;
+}
+.legend op{
+	background-image:url("Images/ArrowIcon.png");
+	width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 1;
+}
+
+
 
 .popupCustom .leaflet-popup-tip,
 .popupCustom .leaflet-popup-content-wrapper {
@@ -199,4 +227,24 @@ color: #726204;
 	background: #e0e0e0;
     color: #234c5e;
     background-image:url("Images/VintagePaper.jpg");
+}
+
+#about
+{
+	position: absolute;
+	left: 10%;
+	right: 10%;
+	top: 11%;
+	bottom: 20%;
+	height: 73%;
+	width: 80%;
+	background-image:url("Images/VintagePaper.jpg");
+	color: #234c5e;
+}
+#aboutText {
+	position: relative;
+	padding-top:3%;
+	padding-left:5%;
+	padding-right:5%;
+	padding-bottom:5%;
 }
