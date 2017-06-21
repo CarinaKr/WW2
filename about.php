@@ -17,7 +17,7 @@
 				with the slider at the bottom of the page. <br>
 				Going to "Tanks" or "Ships" you will find tables of the tanks and ships which were used in World War 2.<br>
 				<br>
-				This website was created as part of a part of the course "Relationale Datenbanken" at the university of 
+				This website was created as part of a part of the course "Relationale Datenbanken", taught by Prof. Wolf, at the university of 
 				applied sciences in Hamburg. Therefore the aim of this website, was not only to give people a simple 
 				overview over World War 2, but mainly to learn about imbedding large amount of data via datatables into
 				a web application.<br>
