@@ -17,13 +17,13 @@
 				with the slider at the bottom of the page. <br>
 				Going to "Tanks" or "Ships" you will find tables of the tanks and ships which were used in World War 2.<br>
 				<br>
-				This website was created as part of a part of the course "Relationale Datenbanken", taught by Prof. Wolf, at the university of 
-				applied sciences in Hamburg. Therefore the aim of this website, was not only to give people a simple 
-				overview over World War 2, but mainly to learn about imbedding large amount of data via datatables into
+				This website was created over the course of "Relationale Datenbanken", taught by Prof. Wolf at the university of 
+				applied science in Hamburg. Therefore the aim of this website, was not only to give people a simple 
+				overview of World War 2, but most and foremost to practise imbedding large amount of data via datatables into
 				a web application.<br>
 				The website is developed with HTML, CSS, PHP, JavaScript and a MySQL Database. <br>
-				In addition we used the frameworks "Leaflet", for the interactive card, and "DataTables", for the Data Tables in
-				"Tanks" and "Ships".<br><br>
+				In addition we used the frameworks "Leaflet" for the interactive map and "DataTables" for the tables displayed in
+				"<a href="tanks.php">Tanks</a>" and "<a href="ships.php">Ships</a>".<br><br>
 				Have fun exploring this website!<br><br>
 				Please excuse any possible historical inaccuracies that may appear on our website.
 				
