@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ID;Name;Year;PlaceY;PlaceX;Direction;Text;Teilnehmer1;Teilnehmer2
 1;Fall Rot;1939;-450;970;90;German bombing of Wielun, Poland, part of Fall Weiss;Germany;
 2;Fall Weiss;1939;-420;970;95;German invasion of Poland;Germany;
@@ -21,29 +20,5 @@ ID;Name;Year;PlaceY;PlaceX;Direction;Text;Teilnehmer1;Teilnehmer2
 18;Operation Roundup;1942;-450;880;180;Planned Allied invasion of Europe;Allied;
 19;Operation Watchtower;1942;-730;1650;270;American invasion of Guadalcanal, Solomon Islands ;United States;
 20;Operation Torch;1942;-550;825;165;Allied invasion of French Morocco and Algeria;United Kingdom;United States
-=======
-﻿ID;Name;Year;PlaceY;PlaceX;Direction;Text;Teilnehmer1;Teilnehmer2
-1;Fall Rot;1939;-450;950;0;German bombing of Wielun, Poland, part of Fall Weiss;Germany;
-2;Fall Weiß;1939;-400;900;0;German invasion of Poland;Germany;
-3;Operation A-Bewegung;1939;-350;850;0;German preparation for the invasion of Poland, part of Fall Weiss;Germany;
-4;Operation Dirschau;1939;-300;800;0;German operation to safeguard the rail bridge at Tczew, Poland during the invasion;Germany;
-5;Operation Himmler;1939;-250;750;0;German staged attacks in Poland to justify invasion, part of Fall Weiss;Germany;
-6;Operation Ost;1939;-200;700;0;German operation in Southern Poland near the border with Czechoslovakia;Germany;
-7;Operation Sonderaktion Krakau;1939;-150;650;0;German operation to murder members of the intelligentsia at univerisites in Krakow, Poland;Germany;
-8;Operation Tannenberg;1939;-450;950;0;German plan to exterminate Polish intelligentsia;Germany;
-9;Operation Wasserkante;1939;-400;900;0;German aerial bombing of Warsaw, Poland;Germany;
-10;Operation Peking;1939;-350;850;0; Polish naval withdraw to Britain prior to German invasion;Poland;
-11;Operation Worek;1939;-300;800;0; Polish naval defense of the Polish coast;Poland;
-12;Operation Aida;1942;-450;1000;0;Axis attacks in Egypt and Libya with aim on Tobruk, Lybia;Germany;Italy
-13;Operation Dragoon;1944;-480;900;0;"Allied invasion of Southern France; original name was Operation Anvil";United States;
-14;Operation Overlord;1944;-450;890;0;Allied invasion of Normandy, France;Allied;
-15;Operation Avalanche;1943;-500;930;0;Allied landing at Salerno, Italy;United Kingdom;
-16;Operation Rheinuebung;1941;-450;800;0;The planned German attacks on Allied shipping conducted by Bismarck and Prinz Eugen;United Kingdom;
-17;Operation Sledgehammer;1942;0;0;0;"Planned Allied invasion of Cherbourg or Brest, France; part of Operation Roundup";Allied;
-46;Operation Market Garden;1944;-400;900;90;Failed Allied attempt to secure bridges over the main rivers of Netherlands;United Kingdom;
-18;Operation Roundup;1942;0;0;0;Planned Allied invasion of Europe;Allied;
-19;Operation Watchtower;1942;0;0;0;American invasion of Guadalcanal, Solomon Islands ;United States;
-20;Operation Torch;1942;-550;825;165;Allied invasion of French Morocco and Algeria;United Kingdom;United States
 21;Operation Bagration;1944;-425;1000;180;Soviet counteroffensive against Germany;UdSSR;Germany
 22;Manchurian Strategic Offensive Operation;1945;-450;1400;135;Soviet offensive against Japan puppetstate;UdSSR;Japan
->>>>>>> origin/master
