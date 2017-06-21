@@ -62,6 +62,7 @@ legend.addTo(map);
 //    iconAnchor:   [5,5], // point of the icon which will correspond to marker's location
 //    popupAnchor:  [0,0] // point from which the popup should open relative to the iconAnchor
 //});
+//
 //HelpNodes für Placing
 //for(var i=0;i<36;i++)
 //{

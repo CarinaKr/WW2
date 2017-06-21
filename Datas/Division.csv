@@ -2,7 +2,7 @@ ID;Name;Truppenstaerke;Offizier;Fraktion;Type
 1;Sturzkampfgeschwader 76;29 Junker Ju 87B;Captain Walter Sigel;German;Land
 2;Sturzkampfgeschwader 2 Immermann;29 Stukas;Major Oskar Dinort;German;Land
 3;Luftwaffe;400 Bombers;Mayor General Wolfram von Richthofen;German;Land
-4;Burza, Blyskawica, Grom ;3 Destroyers;;Polish;Wasser
+4;Burza, Blyskawica, Grom;3 Destroyers;;Polish;Wasser
 5;;5 Submarines;Adam Mohuczy;Polish;Wasser
 6;21. Panzer Division;;Generalmajor Georg von Bismarck;German;Land
 7;15. Panzer Division;;Eduard Crasemann;German;Land
@@ -19,31 +19,41 @@ ID;Name;Truppenstaerke;Offizier;Fraktion;Type
 18;Deutsches Heer;1519 AFV, 2224 Aircraft, 9303 Artilliery;Gotthard Heinrici;German;Land
 19;Imperial Japanese Army;73 Tanks, 64 Tankettes, 400 Aircraft;Michitaro Komatsubara;Japan;Land
 20;Red Army;550 Tanks, 900 Aircraft, 634 Artillery;Grigoriy Shtern;UdSSR;Land
-21;;;;;
-22;;;;;
-23;;;;;
-24;;;;;
-25;;;;;
-26;;;;;
-27;;;;;
-28;;;;;
-29;;;;;
-30;;;;;
-31;;;;;
-32;;;;;
-33;;;;;
-34;;;;;
+21;Kriegsmarine;1 Battleship, 1 Heavy Cruiser, 3 Destroyer, 15 Submarines;Guenther Luetjens;German;Wasser
+22;Royal Navy;3 Battleships, 5 Battlecruisers, 2 Aircraft Carriers, 4 Heavy Cruisers, 7 Light Cruisers, 21 Destroyers;John Tovey;United Kingdom;Wasser
+23;Deutsches Heer;1000000 Units, 2500 Tanks;Gerd von Rundstedt;German;Land
+24;Allied Forces;2052200 Units;Dwight D. Eisenhower;Allied;Land
+25;Deutsches Heer;100000 Units;Johannes Blaskowitz;German;Land
+26;U.S. Army;200000 Units;Jacob L. Devers;United States;Land
+27;Deutsches Heer;100000 Soldiers;Albert Kesselring;German;Land
+28;British Commonwealth;190000 Soldiers;Harold Alexander;United Kingdom;Land
+29;Imperial Japanese Fleet;50000 Soldiers, 2 Battleships, 5 Aircraft Carriers, 11 Cruiser, 29 Destroyer;Hyakutake Haruyoshi;Japan;Wasser
+30;U.S. Navy;75000 Soldiers, 3 Battleships, 4 Aircraft Carriers, 16 Cruisers, 39 Destroyers;Robert L. Ghormley;United States;Wasser
+31;Royal Navy;23 Biplane torpedo bombers, 1 aircraft carrier, 2 Heavy Cruisers, 2 Light Cruisers, 5 Destroyers;Andrew Cunningham;United Kingdom;Wasser
+32;Regia Marina;6 Battleships, 9 Heavy Cruisers, 7 Light Cruisers, 13 Destroyer;Inigo Campioni;Italy;Wasser
+33;U.S. Navy;8 Battleships, 8 Cruisers, 30 Destroyers, 4 Submarines, 1 USCG Cutter, 49 other ships, 390 Aircrafts;Husband E. Kimmel;United States;Wasser
+34;Imperial Japanese;6 Aircraft Carriers, 2 Battleships. 2 Heavy Cruisers, 1 Light Cruiser, Destroyers, 8 Tankers, 23 Fleet Submarines, 5 Midget Submarines, 414 Aircraft;Isoroku Yamamoto;Japan;Wasser
 35;;;;;
 36;;;;;
 37;87. US-Division;20.000 men;Kenneth Anderson;United States;Land
 38;1. US-Panzerdivision;18.500 men;Generalmajor Lloys Fredenall;United States;Land
 39;Western Naval Task Force;35.000 soldiers;Generalmajor George S. Patton;United States;Land
 40;US Aircraft Carriers;2 fleet aircraft carriers, 9 cruisers, 13 destroyers, 2 oilers, 1 seaplane tender, 128 carrier aircrafts;Chester W. Nimitz;United States;Wasser
-41;Japanese Aircraft Carriers;2 fleet aircraft carriers, 1 light carrier, 9 cruisers, 15 destroyers, 5 minesweepers, 2 submarine chasers, 3 gunboats, 1 oil tanker, 1 seaplane tender, 12 transports, 127 carrier aircrafts;Isoroku Yamaoto;Japanese;Wasser
+41;Japanese Aircraft Carriers;2 fleet aircraft carriers, 1 light carrier, 9 cruisers, 15 destroyers, 5 minesweepers, 2 submarine chasers, 3 gunboats, 1 oil tanker, 1 seaplane tender, 12 transports, 127 carrier aircrafts;Isoroku Yamaoto;Japan;Wasser
 42;German Forces;450.000 troops, 1500 tanks;Adolf Hitler;German;Land
 43;American Forces;610.000 men;Dwight D. Eisenhower;United States;Land
 44;8th Army;180.000 men;Lieutenant-General Oliver Leese;United Kingdom;Land
 45;10th Army;140.000 men plus unknown tanks and airplanes;Generalmajor Dietrich Beelitz;German;Land
 46;First Allied Airborne Army;All British airforces plus the Polish first Parachute Brigade;Richard Nelson Gale;Allies;Land
-47;Japanese Naval forces;1 Aricraft Carriers, 3 Light Arcraft Carriers, 8 Battleships, 13 Heavy Cruisers, 6 Light Cruisers, 31 Destroyers ;Ozawa;Japanese;Wasser
-48;Alliiert Naval forces;8 Aricraft Carriers, 8 Light Arcraft Carriers, 10 Battleships, 9 Heavy Cruisers, 13 Light Cruisers, 105 Destroyers ;Ohlendorf;Allies;Wasser
+47;Japanese Naval forces;1 Aricraft Carriers, 3 Light Arcraft Carriers, 8 Battleships, 13 Heavy Cruisers, 6 Light Cruisers, 31 Destroyers;Ozawa;Japan;Wasser
+48;Alliiert Naval forces;8 Aricraft Carriers, 8 Light Arcraft Carriers, 10 Battleships, 9 Heavy Cruisers, 13 Light Cruisers, 105 Destroyers;Ohlendorf;Allies;Wasser
+49;Red Army;5818 Tanks, 7790 Aircraft;Georgy Zhukov;UdSSR;Land
+50;Deutsches Heer;800 Tanks, 1000 Aircraft;Ernst Busch;German;Land
+51;Red Army;5556 Tanks, 3721 Aircraft;Aleksandr Vasilevsky;UdSSR;Land
+52;Imperial Japanese;5360 Artillery, 1155 Tanks, 1800 Aircraft;Otozo Yamada;Japan;Land
+53;Royal Airforce;1963 Aircraft;Hugh Dowding;United Kingdom;Land
+54;Luftwaffe;2550 Aircraft;Hermann Göring;German;Land
+55;Red Army;7360 Tanks, 2792 Aircraft;Georgy Zhukov;UdSSR;Land
+56;Deutsches Heer;3253 Tanks, 2110 Aircraft;Erich von Manstein;German;Land
+57;U.S. Navy;3 Carriers, 7 Heavy Cruisers, 1 Light Cruiser, 15 Destroyers, 16 Submarines;Chester W. Nimitz;United States;Wasser
+58;Imperial Japanese Fleet;4 Carriers, 2 Battleships, 2 Heavy Cruisers, 1 Light Cruiser, 12 Destroyers;Isoroku Yamamoto;Japan;Wasser
