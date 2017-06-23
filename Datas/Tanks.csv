@@ -1,122 +1,122 @@
 Name;Primary_Role;Nation;Designed;No_built;Weight;Length;Width;Heigth;Crew;Armor;Main;Speed
-4TP;Tankette;Poland;1936;1;4.3t;3.84m;2.08m;1.85m;2;17mm;1x20mm nkm wz. 38 FK autocannon;55 km/h
-6-Ton;Light Tank;United Kingdom;1928;153;7.3t;4.88m;2.41m;2.16m;3;19mm-25mm;47mm gun (50 rounds);35 km/h
-7TP;Light Tank;Poland;1935;149;9t;4.6m;2.4m;2.27m;3;17mm;2x7.92mm Ckm wz.30 machine guns;32 km/h
-AMC 35;Cruiser Tank;France;1934;57;14.5t;4.57m;2.24m;2.34m;3;25mm;1x47mm SA35 L/32 gun;42 km/h
-AMC 35 S;Cruiser Tank;France;1934;440;19.5t;5.38m;2.12m;2.62m;3;40mm-47mm;1x47mm SA  35 gun;32 km/h
-AMR 33;Light Tank;France;1932;123;5.5t;3.5m;1.64m;1.73m;2;5mm-13mm;1x7.5mm Reibel Mitrailleuse mle 1931 mg;54 km/h
-AMR 35;Light Tank;France;1934;167;6.5t;3.84m;1.76m;1.88m;2;13mm;7.5mm Reibel machine gun;55 km/h
-BM-13/8/31 Katyusha;Self-Propelled Rocket Artillery;Russia;1939;10000;1t;3.33m;1.58m;unknown;unknown;unknown;8x82mm M-8 rockets;#NAME?
-Bystrokhodny;Cruiser Tank;Russia;1931;8090;11.5t;5.58m;2.23m;2.25m;3;6mm-13mm;45mm Model 32 tank gun;72 km/h
-Canon de 194 modele GPF;Self-Propelled Gun;France;1918;50;29.6t;6.57m;unknown;unknown;unknown;unknown;194mm gun;#NAME?
-Carden Loyd;Tankette;United Kingdom;1927;450;1.5t;2.46m;1.994m;1.22m;2;6mm-9mm;0.303inch Vickers mg;48 km/h
-Char B1;Heavy Tank;France;1921-1934;405;28t;6.37m;2.46m;2.79m;4;40mm-60mm;75mm ABS SA 35 howitzer;28 km/h
-Cruiser Comet I;Cruiser Tank;United Kingdom;1943;1186;33.53t;6.55m;3.04m;2.67m;5;32mm-102mm;77 mm HV;32 km/h
-Cruiser Mk I;Cruiser Tank;United Kingdom;1934;125;12t;5.8m;2.5m;2.65m;6;6mm-14mm;QF 2-pdr;40 km/h
-Cruiser Mk I Sentinel;Cruiser Tank;Australia;1941;65;28.4t;6.32m;2.77m;2.56m;5;65mm;2 pounder tank gun;48 km/h
-Cruiser Mk II;Cruiser Tank;United Kingdom;1934;175;14.3t;5.59m;2.54m;2.64m;5;6mm-30mm;OQF 2-pdr;26 km/h
-Cruiser Mk III;Cruiser Tank;United Kingdom;1936-1937;65;14.2t;6m;2.54m;2.59m;4;6mm-14mm;QF 2-pdr;48 km/h
-Cruiser Mk IV;Cruiser Tank;United Kingdom;1937;665;14.75t;6.02m;2.54m;2.59m;4;6mm-30mm;QF 2-pdr;48 km/h
-Cruiser Mk V Covenanter;Cruiser Tank;United Kingdom;1939;1771;18t;5.79m;2.62m;2.24m;4;7mm-40mm;QF 2-pdr;48 km/h
-Cruiser Mk VI Crusader;Cruiser Tank;United Kingdom;1939;5300;20t;5.97m;2.77m;2.24m;4;40mm;QF 2-pdr;42 km/h
-Cruiser Mk VII Cavalier;Cruiser Tank;United Kingdom;1941;500;27t;6.35m;2.90m;2.44m;5;20mm-76mm;QF 6 pdr;39 km/h
-Cruiser Mk VIII Centaur/Cromwell;Cruiser Tank;United Kingdom;1942;4016;28t;6.35m;2.9m;2.49m;5;76mm-100mm;OQF 75mm;64 km/h
-FT-17;Light Tank;France;1916;4000;6.5t;5m;1.74m;2.14m;2;8mm-22mm;1x37mm machine gun;7 km/h
-H35;Light Tank;France;1933;1200;11t;4.22m;1.95m;2.15m;2;34mm-40mm;37mm SA 18 gun;28 km/h
-Hornisse/Nashorn;Tank Destroyer;Germany;1942;494;24t;8.44m;2.95m;2.65m;4;15mm-30mm;88mm PaK anti-tank gun;42 km/h
-Howitzer Motor Carriage M8 'Scott';Self-Propelled Gun;United States;1942;1778;15.7t;4.41m;2.24m;2.20m;4;10mm-44mm;75mm M3 howitzer;56 km/h
-Infantry Mk II Matilda;Infantry Tank;United Kingdom;1937;2987;25t;4.9m;2.6m;2.5m;4;20mm-78mm;2 pounder tank gun;26 km/h
+Medium Mark A Whippet;Medium Tank;United Kingdom;1916;200;14t;6.10m;2.62m;2.75m;3;14mm;0.303inch Hotchkriss mg;13.4 km/h
+T-18;Light Tank;Russia;1927;96;5.9t;4.38m;1.76m;2.10m;2;6mm-16mm;37mm Model 28;17 km/h
+R35;Light Tank;France;1934;1540;10.6t;4.02m;1.87m;2.12m;2;43mm;37mm SA 18 gun;20 km/h
 Infantry Mk III Valentine;Infantry Tank;United Kingdom;1938;8725;17t;5.41m;2.629m;2.273m;4;8mm-65mm;QF 2-pdr;24 km/h
 Infantry Mk IV Churchill;Infantry Tank;United Kingdom;1940;7368;40.7t;7.44m;3.25m;2.49m;5;51mm-102mm;QF 6 pdr;24 km/h
-Iosif Stalin;Heavy Tank;Russia;1943-1946;6545;46t;9.90m;3.09m;2.73m;4;90mm-155mm;D25-T 122mm gun;37 km/h
-Jagdpanther;Tank Destroyer;Germany;1944;415;45.5t;9.87m;3.42m;2.71m;5;40mm-100mm;8.8cm Pak 43/3;46 km/h
-Jagdpanzer 38(t);Tank Destroyer;Czechoslovakia;1943;2827;15.75t;6.38m;2.63m;2.17m;4;8mm-60mm;7.5cm Pak;42 km/h
-Karl-Geraet;Self-Propelled Gun;Germany;1937-1940;7;124t;11.15m;3.16m;4.38m;21;unknown;60cm howitzer;6 km/h
-Kliment Voroshilov;Heavy Tank;Russia;1938-1939;5129;45t;6.75m;3.32m;2.71m;5;70mm-90mm;KV-1 M1939:76.2mm L-11 gun;35 km/h
-L3;Tankette;Italy;1933;2500;2.7t;3.03m;1.4m;1.2m;2;6mm-12mm;6.5mm machine gun;42 km/h
-L6/40;Light Tank;Italy;1939;283;6.8t;3.78m;1.92m;2.03m;2;6mm-40mm;20mm Breda 35;42 km/h
+Valentine Bishop;Self-Propelled Gun;United Kingdom;1942;100;17t;5.53m;2.63m;2.83m;4;8mm-60mm;QF 25pdr howitzer;24 km/h
+Ram;Medium Tank;Canada;1941;2032;29t;5.8m;3m;2.67m;5;25mm-87mm;QF 6 pdr;25 km/h
+Sturer Emil;Tank Destroyer;Germany;1941;2;35t;9.7m;3.16m;2.7m;5;15mm-50mm;Rheinmetall 128mm PaK 40;25 km/h
+Semovente 90/53;Tank Destroyer;Italy;1942;30;17t;5.205m;2.2m;2.15m;4;30mm;90mm Cannone da 90/53;25 km/h
+PzKpfw NbFz V/VI;Heavy Tank;Germany;1933-1934;5;23.41t;6.6m;2.19m;2.98m;6;13mm-20mm;75mm KwK;25 km/h
+Type 89 I-Go;Medium Tank;Japan;1928;404;12.79t;5.73m;2.15m;2.56m;4;6mm-17mm;Type 90 57mm;26 km/h
+Cruiser Mk II;Cruiser Tank;United Kingdom;1934;175;14.3t;5.59m;2.54m;2.64m;5;6mm-30mm;OQF 2-pdr;26 km/h
+Infantry Mk II Matilda;Infantry Tank;United Kingdom;1937;2987;25t;4.9m;2.6m;2.5m;4;20mm-78mm;2 pounder tank gun;26 km/h
+M36 Jackson;Tank Destroyer;United States;1943;2324;28.6t;7.47m;3.05m;3.28m;5;9.5mm-127mm;90mm gun M3;26 km/h
 Light Amphibious Tank;Tankette;United Kingdom;1930;32;2.2t;4.06m;2.06m;1.88m;2;11mm;0.303inch Vickers mg;27 km/h
-Light Mk VII Tetrarch;Light Tank;United Kingdom;1938;177;7.6t;4.11m;2.31m;2.12m;3;14mm;QF 2-pdr;64 km/h
-M10 Wolverine;Tank Destroyer;United States;1942;6406;29.57t;6.83m;3.05m;2.89m;5;9.5mm-57.2mm;76.2mm Gun M7;51 km/h
+H35;Light Tank;France;1933;1200;11t;4.22m;1.95m;2.15m;2;34mm-40mm;37mm SA 18 gun;28 km/h
+Char B1;Heavy Tank;France;1921-1934;405;28t;6.37m;2.46m;2.79m;4;40mm-60mm;75mm ABS SA 35 howitzer;28 km/h
+T-35;Heavy Tank;Russia;1930-1932;61;45t;9.72m;3.20m;3.43m;11;11mm-30mm;76.2mm gun model 27/32;30 km/h
+Panzerjaeger Tiger (P) 'Elefant';Tank Destroyer;Germany;1942-1943;91;65t;8.14m;3.38m;2.97m;6;200mm;8.8cm Pak 43/2;30 km/h
+T-26;Light Tank;Russia;1928-1931;10300;9.6t;4.6m;2.44m;2.24m;3;6mm-15mm;45mm 20K mod;31.1 km/h
+AMC 35 S;Cruiser Tank;France;1934;440;19.5t;5.38m;2.12m;2.62m;3;40mm-47mm;1x47mm SA  35 gun;32 km/h
+7TP;Light Tank;Poland;1935;149;9t;4.6m;2.4m;2.27m;3;17mm;2x7.92mm Ckm wz.30 machine guns;32 km/h
 M11/39;Medium Tank;Italy;1937;100;11.175t;4.7m;2.2m;2.3m;3;6mm-30mm;37mm Vickers-Terni L/40;32 km/h
 M13/40;Medium Tank;Italy;1939;2000;14t;5m;2.3m;2.4m;4;6mm-42mm;47mm cannone da 47/32 AT gun;32 km/h
-M14/41;Medium Tank;Italy;1941;800;14.5t;4.915m;2.280m;2.370m;4;6mm-42mm;47mm cannone da 47/32 AT gun;33 km/h
-M2(Light);Light Tank;United States;1935;614;11.6t;4.42m;2.46m;2.64m;4;6mm-25mm;37mm Gun M5;36 km/h
-M2(Medium);Medium Tank;United States;1939;112;18.7t;5.38m;2.59m;2.82m;6;4mm-51mm;37mm Gun M3;42 km/h
-M22 Locust;Light Tank;United States;1941;830;7.4t;3.94m;2.16m;1.85m;3;9.5mm-12.5mm;37mm Gun M6;64 km/h
-M24 Chaffee;Light Tank;United States;1943;4731;18.37t;5.56m;3m;2.77m;5;15mm-38mm;75mm Gun M6;56 km/h
-M26 Pershing/M46;Heavy Tank;United States;1944;2212;41.7t;8.649m;3.51m;2.78m;5;76mm-102mm;90mm Gun M3;40 km/h
-M3 Gun Motor Carriage;Tank Destroyer;United States;1940-1941;2202;9.1t;6.24m;197m;2.49m;5;6.4mm-15.9mm;75mm M1897A5;45 km/h
-M3 Lee/Grant;Medium Tank;United States;1940;6258;27t;5.64m;2.72m;3.12m;7;38mm-51mm;75mm Gun M3;42 km/h
-M3 Stuart;Light Tank;United States;1940;22744;15.19t;4.84m;2.23m;2.56m;4;9.5mm-63.5mm;37mm Gun M6;58 km/h
-M36 Jackson;Tank Destroyer;United States;1943;2324;28.6t;7.47m;3.05m;3.28m;5;9.5mm-127mm;90mm gun M3;26 km/h
-M4 Sherman;Medium Tank;United States;1940;49234;38.1t;6.27m;2.99m;2.97m;5;12.7mm-177.8mm;75mm Gun M3;48 km/h
-M6 Gun Motor Carriage;Tank Destroyer;United States;1942;unknown;3.33t;4.52m;2.24m;2.11m;4;0.64cm;37mm Gun M3;55 km/h
-M7 Priest;Self-Propelled Gun;United States;1942;3490;22.97t;6.02m;2.87m;2.54m;5;12mm-62mm;105mm M1/M2 howitzer;39 km/h
-Medium Mark A Whippet;Medium Tank;United Kingdom;1916;200;14t;6.10m;2.62m;2.75m;3;14mm;0.303inch Hotchkriss mg;13.4 km/h
-Panzerjaeger Tiger (P) 'Elefant';Tank Destroyer;Germany;1942-1943;91;65t;8.14m;3.38m;2.97m;6;200mm;8.8cm Pak 43/2;30 km/h
-PZInz 130;Tankette;Poland;1936;1;4.3t;3.84m;2.08m;1.85m;2;17mm;1x20mm nkm wz. 38 FK autocannon;55 km/h
-PzKpfw 38(t);Light Tank;Czechoslovakia;1939;1414;9.85t;4.61m;2.135m;2.252m;4;8mm-50mm;3.7cm KwK 38(t);42 km/h
-PzKpfw I;Light Tank;Germany;1934;1659;5.4t;4.02t;2.06m;1.72m;2;7mm-13mm;7.92mm MG13;50 km/h
-PzKpfw II;Light Tank;Germany;1934;1856;8.9t;4.81t;2.22m;1.99m;3;5mm-14.5mm;2cm Kwk 30;40 km/h
-PzKpfw III;Medium Tank;Germany;1935-1937;5774;23t;5.56m;2.90m;2.5m;5;15mm-50mm;3.7cm KwK 38(t);40 km/h
-PzKpfw IV;Medium Tank;Germany;1936;8553;25t;5.92m;2.88m;2.68m;5;10mm-80mm;7.5cm KwK ;42 km/h
-PzKpfw NbFz V/VI;Heavy Tank;Germany;1933-1934;5;23.41t;6.6m;2.19m;2.98m;6;13mm-20mm;75mm KwK;25 km/h
-PzKpfw Tiger Ausf. B 'Tiger II';Heavy Tank;Germany;1943;492;68.5t;7.38m;3.755m;3.09m;5;25mm-185mm;8.8cm KwK ;41.5 km/h
-PzKpfw V Panther;Medium Tank;Germany;1942;6000;44.8t;6.87m;3.27m;2.99m;5;80mm;7.5cm KwK ;55 km/h
-PzKpfw VI Ausf. E 'Tiger I';Heavy Tank;Germany;1938-1941;1347;57t;6.316m;3.56m;3m;5;25mm-120mm;8.8cm KwK ;45 km/h
-R35;Light Tank;France;1934;1540;10.6t;4.02m;1.87m;2.12m;2;43mm;37mm SA 18 gun;20 km/h
-Ram;Medium Tank;Canada;1941;2032;29t;5.8m;3m;2.67m;5;25mm-87mm;QF 6 pdr;25 km/h
-SdKfz 131/132 Marder II;Tank Destroyer;Germany;1942;201;10.8t;6.36m;2.28m;2.2m;3;5mm-35mm;7.5cm Pak 40;40 km/h
-SdKfz 135 Marder I;Tank Destroyer;Germany;1942;170;8.2t;5.38m;1.88m;2m;4;5mm-12mm;7.5cm Pak 40;38 km/h
-SdKfz 138/1 Grille;Self-Propelled Gun;Germany;1942;389;11.5t;4.95m;2.15m;2.47m;4;10mm-15mm;15cm sIG 33;35 km/h
-SdKfz 138/139 Marder III;Tank Destroyer;Germany;1942;1736;10.67t;4.65m;2.35m;2.48m;4;10mm-50mm;7.5cm Pak 40;42 km/h
-Semovente 105/25;Tank Destroyer;Italy;1943;90;15.8t;5.1m;2.4m;1.75m;3;75mm;105mm l/25;35 km/h
-Semovente 149/40;Self-Propelled Gun;Italy;1942;1;24t;6.6m;3m;2.01m;unknown;14mm;Cannone da 149/40 modello 35;35 km/h
-Semovente 47/32;Self-Propelled Gun;Italy;1940;282;6.5t;3.82m;1.86m;1.69m;3;6mm-30mm;47mm cannone da 47/32 AT gun;42 km/h
-Semovente 75/18;Self-Propelled Gun;Italy;1941;262;13.1t;4.915m;2.28m;1.85m;3;6mm-50mm;75mm obice da 75/18 mod. 34;34 km/h
 Semovente 75/34;Self-Propelled Gun;Italy;1942;141;15t;5.04m;2.23m;1.8m;3;42mm;75mm l/34 gun;32 km/h
-Semovente 90/53;Tank Destroyer;Italy;1942;30;17t;5.205m;2.2m;2.15m;4;30mm;90mm Cannone da 90/53;25 km/h
+Cruiser Comet I;Cruiser Tank;United Kingdom;1943;1186;33.53t;6.55m;3.04m;2.67m;5;32mm-102mm;77 mm HV;32 km/h
+Valentine Archer;Tank Destroyer;United Kingdom;1943;655;15t;6.7m;2.76m;2.25m;4;14mm-60mm;QF 17 pdr;32 km/h
+M14/41;Medium Tank;Italy;1941;800;14.5t;4.915m;2.280m;2.370m;4;6mm-42mm;47mm cannone da 47/32 AT gun;33 km/h
+Semovente 75/18;Self-Propelled Gun;Italy;1941;262;13.1t;4.915m;2.28m;1.85m;3;6mm-50mm;75mm obice da 75/18 mod. 34;34 km/h
+6-Ton;Light Tank;United Kingdom;1928;153;7.3t;4.88m;2.41m;2.16m;3;19mm-25mm;47mm gun (50 rounds);35 km/h
 Sergei Mironovich Kirov;Heavy Tank;Russia;1937;1;55t;8.75m;3.36m;3.35m;7;20mm-60mm;45mm gun M1932;35 km/h
-Sexton;Self-Propelled Gun;Canada;1942;2000;25t;6.12m;2.71m;2.44m;6;15mm-32mm;OQF 25 pdr;40 km/h
-Sturer Emil;Tank Destroyer;Germany;1941;2;35t;9.7m;3.16m;2.7m;5;15mm-50mm;Rheinmetall 128mm PaK 40;25 km/h
-Sturmgeschuetz III;Assault Gun;Germany;1936;10086;23.9t;6.85m;2.95m;2.16m;4;16mm-80mm;7.5cm StuK 40;40 km/h
-Sturmgeschuetz IV;Assault Gun;Germany;1943;1108;23t;6.7m;2.95m;2.2m;4;10mm-80mm;7.5cm StuK 40;40 km/h
-Sturmpanzer;Assault Gun;Germany;1943;306;28.2t;5.93m;2.88m;2.52m;5;100mm;15cm StuH 43 gun;40 km/h
-SU-100;Tank Destroyer;Russia;1943;2335;31.6t;9.45mm;3m;2.25m;4;20mm-75mm;100mm gun D-10S;48 km/h
-SU-76;Self-Propelled Gun;Russia;1942;14292;10.6t;4.88m;2.73m;2.17m;4;16mm-35mm;76mm ZIS-3Sh gun;45 km/h
-SU-85;Tank Destroyer;Russia;1943;2050;29.6t;8.15m;3m;2.45m;4;45mm;85mm D-5T gun;55 km/h
-T-18;Light Tank;Russia;1927;96;5.9t;4.38m;1.76m;2.10m;2;6mm-16mm;37mm Model 28;17 km/h
-T-26;Light Tank;Russia;1928-1931;10300;9.6t;4.6m;2.44m;2.24m;3;6mm-15mm;45mm 20K mod;31.1 km/h
-T-27;Tankette;Russia;1930;2540;2.7t;2.60m;1.83m;1.44m;2;6mm-10mm;7.62mm DT mg;42 km/h
-T-28;Medium Tank;Russia;1931;503;28t;7.44m;2.87m;2.82m;6;20mm-30mm;76.2mm KT-28 cannon;37 km/h
-T-34;Medium Tank;Russia;1937-1940;84070;26.5t;6.68m;3m;2.45m;5;15mm-60mm;76.2mm DT mg;53 km/h
-T-35;Heavy Tank;Russia;1930-1932;61;45t;9.72m;3.20m;3.43m;11;11mm-30mm;76.2mm gun model 27/32;30 km/h
+SdKfz 138/1 Grille;Self-Propelled Gun;Germany;1942;389;11.5t;4.95m;2.15m;2.47m;4;10mm-15mm;15cm sIG 33;35 km/h
+Semovente 149/40;Self-Propelled Gun;Italy;1942;1;24t;6.6m;3m;2.01m;unknown;14mm;Cannone da 149/40 modello 35;35 km/h
+Semovente 105/25;Tank Destroyer;Italy;1943;90;15.8t;5.1m;2.4m;1.75m;3;75mm;105mm l/25;35 km/h
 T-37A;Tankette;Russia;1931-1933;1200;3.2t;3.75m;2.1m;1.82nm;2;3mm-9mm;7.62mm DT mg;35 km/h
-T-40;Light Tank;Russia;1940;222;5.9t;4.1m;2.33m;1.9m;2;4mm-13mm;12.7mm DshK mg;45 km/h
-T-43;Medium Tank;Russia;1942;1;34t;8.10m;3m;2.58m;4;16mm-90mm;76.2mm F-34 tank gun;50 km/h
-T-44;Medium Tank;Russia;1943-1944;1823;32t;7.65m;3.25m;2.455m;4;120mm;85-mm ZiS-S-53 tank gun;53 km/h
-T48 Gun Motor Carriage;Self-Propelled Gun;United States;1940-1941;962;9.45t;6.4m;2.16m;2.13m;5;6mm-12mm;57mm gun M1;72 km/h
-T-50;Infantry Tank;Russia;1939-1941;69;14t;5.20m;2.47m;2.16m;4;12mm-37mm;45mm 20K mod;60 km/h
-Type 1 Chi-He/Type 3 Ka-Chi;Medium Tank;Japan;1940;170;17.2t;5.5m;2.2m;2.38m;5;20mm-50mm;Type 1 47mm tank gun;44 km/h
+Kliment Voroshilov;Heavy Tank;Russia;1938-1939;5129;45t;6.75m;3.32m;2.71m;5;70mm-90mm;KV-1 M1939:76.2mm L-11 gun;35 km/h
+M2(Light);Light Tank;United States;1935;614;11.6t;4.42m;2.46m;2.64m;4;6mm-25mm;37mm Gun M5;36 km/h
+T-28;Medium Tank;Russia;1931;503;28t;7.44m;2.87m;2.82m;6;20mm-30mm;76.2mm KT-28 cannon;37 km/h
+Iosif Stalin;Heavy Tank;Russia;1943-1946;6545;46t;9.90m;3.09m;2.73m;4;90mm-155mm;D25-T 122mm gun;37 km/h
+Type 97 Chi-Ha;Medium Tank;Japan;1936;1162;14.3t;5.5m;2.33m;2.21m;4;8mm-25mm;Type 97 57mm tank gun;38 km/h
 Type 1 Ho-Ni I;Tank Destroyer;Japan;1941;80;15.4t;5.9m;2.29m;2.39m;5;25mm-51mm;75mm Type90 gun;38 km/h
-Type 2 Ho-I;Infantry Tank;Japan;1937;31;16.1t;5.73m;2.33m;2.58m;5;12mm-50mm;75mm Type99 gun;44 km/h
-Type 2 Ke-To;Light Tank;Japan;1941;34;7.2t;4.11m;2.12m;1.82m;3;6mm-16mm;7.7mm mg;50 km/h
-Type 3 Chi-Nu;Medium Tank;Japan;1943;166;19t;5.64m;2.41m;2.68m;5;12mm-50mm;Type 3 75mm tank gun;39 km/h
+SdKfz 135 Marder I;Tank Destroyer;Germany;1942;170;8.2t;5.38m;1.88m;2m;4;5mm-12mm;7.5cm Pak 40;38 km/h
 Type 3 Ho-Ni III;Tank Destroyer;Japan;1944;41;17t;5.52m;2.29m;2.39m;5;12mm-25mm;Type 3 75mm tank gun;38 km/h
-Type 4 Chi-To;Medium Tank;Japan;1943-1944;2;30t;6.42m;2.87m;2.87m;5;12mm-75mm;Type 5 75 mm tank gun;45 km/h
-Type 4 Ha-To;Self-Propelled Gun;Japan;1943;4;14.3t;6.8m;2.4m;2.75m;7;12mm-25mm;Type 3 300mm mortar;40 km/h
 Type 4 Ho-Ro;Self-Propelled Gun;Japan;1944;12;16.3t;5.52m;2.33m;2.36m;6;12mm-25mm;150mm Type 38 howitzer;38 km/h
-Type 4 Ke-Nu;Light Tank;Japan;1944;100;8.4t;4.3m;2m;2m;3;6mm-25mm;Type 90 57mm;40 km/h
-Type 5 Chi-Ri;Medium Tank;Japan;1943-1944;1;37t;7.3m;3.05m;3.05m;5;25mm-75mm;Type 5 75mm tank gun;45 km/h
-Type 5 Ke-Ho;Light Tank;Japan;1942;1;10t;4.38m;2.23m;2.23m;4;8mm-20mm;Type 1 47mm tank gun;50 km/h
-Type 5 Na-To;Tank Destroyer;Japan;1945;2;15t;5.8m;2.4m;2.75m;7;12mm;Type 5 75mm gun;40 km/h
-Type 89 I-Go;Medium Tank;Japan;1928;404;12.79t;5.73m;2.15m;2.56m;4;6mm-17mm;Type 90 57mm;26 km/h
+Cruiser Mk VII Cavalier;Cruiser Tank;United Kingdom;1941;500;27t;6.35m;2.90m;2.44m;5;20mm-76mm;QF 6 pdr;39 km/h
+M7 Priest;Self-Propelled Gun;United States;1942;3490;22.97t;6.02m;2.87m;2.54m;5;12mm-62mm;105mm M1/M2 howitzer;39 km/h
+Type 3 Chi-Nu;Medium Tank;Japan;1943;166;19t;5.64m;2.41m;2.68m;5;12mm-50mm;Type 3 75mm tank gun;39 km/h
 Type 92 Jyu-Sokosha;Tankette;Japan;1931;167;3.5t;3.95m;1.63m;1.86m;3;6mm-12mm;13mm Type 92 hmg;40 km/h
 Type 94 Te-Ke;Tankette;Japan;1932;823;3.4t;3m;1.6m;1.6m;2;8mm-12mm;6.5mm Type 91 mg;40 km/h
-Type 95 Ha-Go/Type 2 Ka-Mi;Light Tank;Japan;1933-1934;2300;7.4t;4.38m;2.06m;2.13m;3;6mm-13mm;Type 94 37mm tank gun;45 km/h
-Type 97 Chi-Ha;Medium Tank;Japan;1936;1162;14.3t;5.5m;2.33m;2.21m;4;8mm-25mm;Type 97 57mm tank gun;38 km/h
+Cruiser Mk I;Cruiser Tank;United Kingdom;1934;125;12t;5.8m;2.5m;2.65m;6;6mm-14mm;QF 2-pdr;40 km/h
+PzKpfw II;Light Tank;Germany;1934;1856;8.9t;4.81t;2.22m;1.99m;3;5mm-14.5mm;2cm Kwk 30;40 km/h
+Sturmgeschuetz III;Assault Gun;Germany;1936;10086;23.9t;6.85m;2.95m;2.16m;4;16mm-80mm;7.5cm StuK 40;40 km/h
+SdKfz 131/132 Marder II;Tank Destroyer;Germany;1942;201;10.8t;6.36m;2.28m;2.2m;3;5mm-35mm;7.5cm Pak 40;40 km/h
+Sexton;Self-Propelled Gun;Canada;1942;2000;25t;6.12m;2.71m;2.44m;6;15mm-32mm;OQF 25 pdr;40 km/h
+Sturmgeschuetz IV;Assault Gun;Germany;1943;1108;23t;6.7m;2.95m;2.2m;4;10mm-80mm;7.5cm StuK 40;40 km/h
+Sturmpanzer;Assault Gun;Germany;1943;306;28.2t;5.93m;2.88m;2.52m;5;100mm;15cm StuH 43 gun;40 km/h
+Type 4 Ha-To;Self-Propelled Gun;Japan;1943;4;14.3t;6.8m;2.4m;2.75m;7;12mm-25mm;Type 3 300mm mortar;40 km/h
+M26 Pershing/M46;Heavy Tank;United States;1944;2212;41.7t;8.649m;3.51m;2.78m;5;76mm-102mm;90mm Gun M3;40 km/h
+Type 4 Ke-Nu;Light Tank;Japan;1944;100;8.4t;4.3m;2m;2m;3;6mm-25mm;Type 90 57mm;40 km/h
+Type 5 Na-To;Tank Destroyer;Japan;1945;2;15t;5.8m;2.4m;2.75m;7;12mm;Type 5 75mm gun;40 km/h
+PzKpfw III;Medium Tank;Germany;1935-1937;5774;23t;5.56m;2.90m;2.5m;5;15mm-50mm;3.7cm KwK 38(t);40 km/h
+PzKpfw Tiger Ausf. B 'Tiger II';Heavy Tank;Germany;1943;492;68.5t;7.38m;3.755m;3.09m;5;25mm-185mm;8.8cm KwK ;41.5 km/h
+T-27;Tankette;Russia;1930;2540;2.7t;2.60m;1.83m;1.44m;2;6mm-10mm;7.62mm DT mg;42 km/h
+L3;Tankette;Italy;1933;2500;2.7t;3.03m;1.4m;1.2m;2;6mm-12mm;6.5mm machine gun;42 km/h
+AMC 35;Cruiser Tank;France;1934;57;14.5t;4.57m;2.24m;2.34m;3;25mm;1x47mm SA35 L/32 gun;42 km/h
+PzKpfw IV;Medium Tank;Germany;1936;8553;25t;5.92m;2.88m;2.68m;5;10mm-80mm;7.5cm KwK ;42 km/h
+Cruiser Mk VI Crusader;Cruiser Tank;United Kingdom;1939;5300;20t;5.97m;2.77m;2.24m;4;40mm;QF 2-pdr;42 km/h
+L6/40;Light Tank;Italy;1939;283;6.8t;3.78m;1.92m;2.03m;2;6mm-40mm;20mm Breda 35;42 km/h
+M2(Medium);Medium Tank;United States;1939;112;18.7t;5.38m;2.59m;2.82m;6;4mm-51mm;37mm Gun M3;42 km/h
+PzKpfw 38(t);Light Tank;Czechoslovakia;1939;1414;9.85t;4.61m;2.135m;2.252m;4;8mm-50mm;3.7cm KwK 38(t);42 km/h
+M3 Lee/Grant;Medium Tank;United States;1940;6258;27t;5.64m;2.72m;3.12m;7;38mm-51mm;75mm Gun M3;42 km/h
+Semovente 47/32;Self-Propelled Gun;Italy;1940;282;6.5t;3.82m;1.86m;1.69m;3;6mm-30mm;47mm cannone da 47/32 AT gun;42 km/h
+Hornisse/Nashorn;Tank Destroyer;Germany;1942;494;24t;8.44m;2.95m;2.65m;4;15mm-30mm;88mm PaK anti-tank gun;42 km/h
+SdKfz 138/139 Marder III;Tank Destroyer;Germany;1942;1736;10.67t;4.65m;2.35m;2.48m;4;10mm-50mm;7.5cm Pak 40;42 km/h
+Jagdpanzer 38(t);Tank Destroyer;Czechoslovakia;1943;2827;15.75t;6.38m;2.63m;2.17m;4;8mm-60mm;7.5cm Pak;42 km/h
 Type 97 Te-Ke;Tankette;Japan;1936-1937;616;4.7t;3.68m;1.8m;1.9m;2;4mm-16mm;Type 94 37mm tank gun;42 km/h
+Type 2 Ho-I;Infantry Tank;Japan;1937;31;16.1t;5.73m;2.33m;2.58m;5;12mm-50mm;75mm Type99 gun;44 km/h
+Type 1 Chi-He/Type 3 Ka-Chi;Medium Tank;Japan;1940;170;17.2t;5.5m;2.2m;2.38m;5;20mm-50mm;Type 1 47mm tank gun;44 km/h
+T-40;Light Tank;Russia;1940;222;5.9t;4.1m;2.33m;1.9m;2;4mm-13mm;12.7mm DshK mg;45 km/h
+SU-76;Self-Propelled Gun;Russia;1942;14292;10.6t;4.88m;2.73m;2.17m;4;16mm-35mm;76mm ZIS-3Sh gun;45 km/h
+Type 95 Ha-Go/Type 2 Ka-Mi;Light Tank;Japan;1933-1934;2300;7.4t;4.38m;2.06m;2.13m;3;6mm-13mm;Type 94 37mm tank gun;45 km/h
+PzKpfw VI Ausf. E 'Tiger I';Heavy Tank;Germany;1938-1941;1347;57t;6.316m;3.56m;3m;5;25mm-120mm;8.8cm KwK ;45 km/h
+M3 Gun Motor Carriage;Tank Destroyer;United States;1940-1941;2202;9.1t;6.24m;197m;2.49m;5;6.4mm-15.9mm;75mm M1897A5;45 km/h
+Type 4 Chi-To;Medium Tank;Japan;1943-1944;2;30t;6.42m;2.87m;2.87m;5;12mm-75mm;Type 5 75 mm tank gun;45 km/h
+Type 5 Chi-Ri;Medium Tank;Japan;1943-1944;1;37t;7.3m;3.05m;3.05m;5;25mm-75mm;Type 5 75mm tank gun;45 km/h
+Jagdpanther;Tank Destroyer;Germany;1944;415;45.5t;9.87m;3.42m;2.71m;5;40mm-100mm;8.8cm Pak 43/3;46 km/h
+Carden Loyd;Tankette;United Kingdom;1927;450;1.5t;2.46m;1.994m;1.22m;2;6mm-9mm;0.303inch Vickers mg;48 km/h
+Cruiser Mk IV;Cruiser Tank;United Kingdom;1937;665;14.75t;6.02m;2.54m;2.59m;4;6mm-30mm;QF 2-pdr;48 km/h
+Cruiser Mk V Covenanter;Cruiser Tank;United Kingdom;1939;1771;18t;5.79m;2.62m;2.24m;4;7mm-40mm;QF 2-pdr;48 km/h
+M4 Sherman;Medium Tank;United States;1940;49234;38.1t;6.27m;2.99m;2.97m;5;12.7mm-177.8mm;75mm Gun M3;48 km/h
+Cruiser Mk I Sentinel;Cruiser Tank;Australia;1941;65;28.4t;6.32m;2.77m;2.56m;5;65mm;2 pounder tank gun;48 km/h
+SU-100;Tank Destroyer;Russia;1943;2335;31.6t;9.45mm;3m;2.25m;4;20mm-75mm;100mm gun D-10S;48 km/h
+Cruiser Mk III;Cruiser Tank;United Kingdom;1936-1937;65;14.2t;6m;2.54m;2.59m;4;6mm-14mm;QF 2-pdr;48 km/h
+PzKpfw I;Light Tank;Germany;1934;1659;5.4t;4.02t;2.06m;1.72m;2;7mm-13mm;7.92mm MG13;50 km/h
 Type 98 Ke-Ni;Light Tank;Japan;1938;104;7.2t;4.11m;2.12m;1.82m;3;6mm-16mm;Type 100 37mm gun;50 km/h
-Valentine Archer;Tank Destroyer;United Kingdom;1943;655;15t;6.7m;2.76m;2.25m;4;14mm-60mm;QF 17 pdr;32 km/h
-Valentine Bishop;Self-Propelled Gun;United Kingdom;1942;100;17t;5.53m;2.63m;2.83m;4;8mm-60mm;QF 25pdr howitzer;24 km/h
+Type 2 Ke-To;Light Tank;Japan;1941;34;7.2t;4.11m;2.12m;1.82m;3;6mm-16mm;7.7mm mg;50 km/h
+T-43;Medium Tank;Russia;1942;1;34t;8.10m;3m;2.58m;4;16mm-90mm;76.2mm F-34 tank gun;50 km/h
+Type 5 Ke-Ho;Light Tank;Japan;1942;1;10t;4.38m;2.23m;2.23m;4;8mm-20mm;Type 1 47mm tank gun;50 km/h
+M10 Wolverine;Tank Destroyer;United States;1942;6406;29.57t;6.83m;3.05m;2.89m;5;9.5mm-57.2mm;76.2mm Gun M7;51 km/h
+T-34;Medium Tank;Russia;1937-1940;84070;26.5t;6.68m;3m;2.45m;5;15mm-60mm;76.2mm DT mg;53 km/h
+T-44;Medium Tank;Russia;1943-1944;1823;32t;7.65m;3.25m;2.455m;4;120mm;85-mm ZiS-S-53 tank gun;53 km/h
+AMR 33;Light Tank;France;1932;123;5.5t;3.5m;1.64m;1.73m;2;5mm-13mm;1x7.5mm Reibel Mitrailleuse mle 1931 mg;54 km/h
+AMR 35;Light Tank;France;1934;167;6.5t;3.84m;1.76m;1.88m;2;13mm;7.5mm Reibel machine gun;55 km/h
+4TP;Tankette;Poland;1936;1;4.3t;3.84m;2.08m;1.85m;2;17mm;1x20mm nkm wz. 38 FK autocannon;55 km/h
+PZInz 130;Tankette;Poland;1936;1;4.3t;3.84m;2.08m;1.85m;2;17mm;1x20mm nkm wz. 38 FK autocannon;55 km/h
+M6 Gun Motor Carriage;Tank Destroyer;United States;1942;unknown;3.33t;4.52m;2.24m;2.11m;4;0.64cm;37mm Gun M3;55 km/h
+PzKpfw V Panther;Medium Tank;Germany;1942;6000;44.8t;6.87m;3.27m;2.99m;5;80mm;7.5cm KwK ;55 km/h
+SU-85;Tank Destroyer;Russia;1943;2050;29.6t;8.15m;3m;2.45m;4;45mm;85mm D-5T gun;55 km/h
+Howitzer Motor Carriage M8 'Scott';Self-Propelled Gun;United States;1942;1778;15.7t;4.41m;2.24m;2.20m;4;10mm-44mm;75mm M3 howitzer;56 km/h
+M24 Chaffee;Light Tank;United States;1943;4731;18.37t;5.56m;3m;2.77m;5;15mm-38mm;75mm Gun M6;56 km/h
+M3 Stuart;Light Tank;United States;1940;22744;15.19t;4.84m;2.23m;2.56m;4;9.5mm-63.5mm;37mm Gun M6;58 km/h
+Karl-Geraet;Self-Propelled Gun;Germany;1937-1940;7;124t;11.15m;3.16m;4.38m;21;unknown;60cm howitzer;6 km/h
+T-50;Infantry Tank;Russia;1939-1941;69;14t;5.20m;2.47m;2.16m;4;12mm-37mm;45mm 20K mod;60 km/h
+Light Mk VII Tetrarch;Light Tank;United Kingdom;1938;177;7.6t;4.11m;2.31m;2.12m;3;14mm;QF 2-pdr;64 km/h
+M22 Locust;Light Tank;United States;1941;830;7.4t;3.94m;2.16m;1.85m;3;9.5mm-12.5mm;37mm Gun M6;64 km/h
+Cruiser Mk VIII Centaur/Cromwell;Cruiser Tank;United Kingdom;1942;4016;28t;6.35m;2.9m;2.49m;5;76mm-100mm;OQF 75mm;64 km/h
+FT-17;Light Tank;France;1916;4000;6.5t;5m;1.74m;2.14m;2;8mm-22mm;1x37mm machine gun;7 km/h
+Bystrokhodny;Cruiser Tank;Russia;1931;8090;11.5t;5.58m;2.23m;2.25m;3;6mm-13mm;45mm Model 32 tank gun;72 km/h
+T48 Gun Motor Carriage;Self-Propelled Gun;United States;1940-1941;962;9.45t;6.4m;2.16m;2.13m;5;6mm-12mm;57mm gun M1;72 km/h
+Canon de 194 modele GPF;Self-Propelled Gun;France;1918;50;29.6t;6.57m;unknown;unknown;unknown;unknown;194mm gun;unknown
+BM-13/8/31 Katyusha;Self-Propelled Rocket Artillery;Russia;1939;10000;1t;3.33m;1.58m;unknown;unknown;unknown;8x82mm M-8 rockets;unknown

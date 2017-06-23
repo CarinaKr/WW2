@@ -220,7 +220,7 @@ color: #726204;
 	right: 10%;
 	top: 11%;
 	bottom: 20%;
-	overflow-x: hidden;
+	overflow:auto;
 	height: 83%;
 	width: 80%;
 	z-index: 0;
@@ -240,6 +240,7 @@ color: #726204;
 	width: 80%;
 	background-image:url("Images/VintagePaper.jpg");
 	color: #234c5e;
+	overflow:auto;
 }
 #aboutText {
 	position: relative;

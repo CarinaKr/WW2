@@ -22,7 +22,7 @@
 					<th>Speed [kn]</th>
 					<th>Crew</th>
 					<th>Main</th>
-					 <th>Armour</th> 
+					 <th>Armour [mm]</th> 
 				</tr>
 			</thead>
 			
