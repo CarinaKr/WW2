@@ -1,116 +1,116 @@
 Class;Type;Displacement;Length;Beam;Speed;Crew;Main;Armour
-Katori;Light Cruiser;5985;129,77;15,95;18;590;4x140mm/40 caliber guns;10
-Duquersne;Heavy Cruiser;10000;191;19;33,75;605;8x203mm/50 Modele 1924 guns;30
-Kirov;Light Cruiser;7890;191,3;17,66;35,94;872;3x3-180mm B1P guns;50
-Bismarck;Battleship;41000;241,6;36;30;2065;8x38cm SK C/34;100-320
-Alaska;Large Cruiser;29771;246,43;28;33;1517;9x12-inch/50 caliber;102-325
-Indiana;Battleship;10453;106,96;21,11;15;473;4x13-inch/35 caliber guns;102-432
-Revenge;Battleship;29150;190;27;21;1150;8x15-inch/42 guns;127-330
-Colorado;Battleship;32600;190,27;29,67;21;1080;8x16-inch/45 caliber Mark 1 guns;127-343
-King George V;Battleship;42923;227,1;31,5;28,3;1422;10xBL 14-inch Mark VII guns;127-370
-Tennessee;Battleship;33723;180;30;31;1464;12x14-inch/51 caliber guns;127-457
-Takao;Heavy Cruiser;9850;192,5;19;35;773;10x20cm/50 3rd Year Type naval guns;13-127
-Vittorio Veneto;Battleship;40723;237,76;32,82;30;1950;3x3 381mm/50 caliber guns;162-350
+Activity;Escort Carrier;14480;156,29;20,27;18;700;2x4-inch guns;unknown
 Admiral;Battlecruiser;64200;262,1;32,7;31;820;8x38.1cm BL 15-inch MK I guns;19 -305
-Lexington;Aircraft Carrier;36000;270,7;32,3;33,25;2791;4xtwin 8-inch guns;19-178
-Courageous;Aircraft Carrier;22900;224,1;26,8;30;738;10xsingle 5,5-inch guns;19-76
-Yamato;Battleship;69300;256;36,9;27;2767;9x46cm guns;200-650
-Trento;Heavy Cruiser;13548;169,96;20,6;35,5;781;8x203mm/50 caliber guns;20-100
 Admiral Hipper;Heavy Cruiser;16170;202,8;21,3;32;1400;8x20.3cm SK C/34;20-100
-Duguay-Tourin;Light Cruiser;7365;181,3;17,5;30;580;8x155mm/50 guns;20-30
-Bogue;Escort Carrier;16890;151;21,18;18;656;2x4-inch/50 caliber gun;20-50
 Agano;Light Cruiser;6652;174;15,2;35;730;6x152 mm Type 41 guns;20-60
+Akagi;Aircraft Carrier;37100;260,67;31,32;31,5;1630;6xsingle 20cm guns;79-152
+Alaska;Large Cruiser;29771;246,43;28;33;1517;9x12-inch/50 caliber;102-325
+Algerie;Heavy Cruiser;10000;186,2;20;31;748;8x203mm/55 Modele 1931 guns;unknown
+Argus;Aircraft Carrier;14680;172,2;20,7;20;495;4x4-inch anti-aircraft guns;unknown
+Ark Royal;Aircraft Carrier;22000;240;28,9;30;1580;16x4,5-inch dual purpose guns;unknown
+Atlanta;Light Cruiser;6718;165;16;32,5;673;16x5-inch/38 caliber Mark 12 guns;32-95
+Baltimore;Heavy Cruiser;14733;205,26;21,59;33;1146;9x8-ich/55Mark 15 guns;38-152
+Bearn;Aircraft Carrier;22501;182,6;9,3;31,5;865;8x155mm/50 guns;25-80
+Bismarck;Battleship;41000;241,6;36;30;2065;8x38cm SK C/34;100-320
+Bogue;Escort Carrier;16890;151;21,18;18;656;2x4-inch/50 caliber gun;20-50
+Bretagne;Battleship;23936;166;26,9;20;1190;10x340mm/45 Modele 1912 guns;40-340
+Brooklyn;Light Cruiser;9769;185;19;32,5;868;15xMark 16/1 triple 6-inch/47 Turret;50-165
+Casablanca;Escort Carrier;7800;156,1;19,9;20;916;1x5-inch/38 caliber gun;unknown
+Chitose;Aircraft Carrier;11400;192,5;20,8;28,9;800;4x12,7cm/40 Type 89 naval guns;unknown
+Cleveland;Light Cruiser;11932;180;20,22;32,5;1255;4xtriple 6-inch/47;39-170
+Colorado;Battleship;32600;190,27;29,67;21;1080;8x16-inch/45 caliber Mark 1 guns;127-343
+Colossus;Light Cruiser;13200;210;24;25;1050;6x4-barrelled 2 pounder anti-aircraft guns;unknown
 Conte di Cavour;Battleship;23458;176;28;21,5;1000;3xtriple, 2xtwin 305mm guns;24-280
 County;Heavy Cruiser;10400;180;21;31,5;784;8xBL 8-inch Mk. VIII guns in twin mounts Mk. I;25-110
-Mogami;Heavy Cruiser;8500;201,6;20,6;37;850;5xtriple 15,5cm/60 3rd Year Type guns;25-140
-Eagle;Aircraft Carrier;22200;203,5;35,1;24;791;9x6-inch guns;25-144
-Kongo;Battleship;27384;214,58;28,04;27,5;1193;4xtwin 356mm guns;25-254
-Queen Elizabeth;Battleship;27500;169,82;27,58;24;1300;8xBL 15-inch Mk I guns;25-355
-Pensacola;Heavy Cruiser;9100;178,5;19,8;32,5;1200;10x8-inch/55 caliber guns;25-355
-Sain Louis;Light Cruiser;10000;185;18,8;33;888;15xMark 16/1 triple 6-inch/47 Turret;25-355
-Nelson;Battleship;33950;201,2;32,2;23;1361;3xtriple 16-inch guns;25-356
-Yubari;Light Cruiser;2890;138,9;12;35,5;328;6x14cm/50 3rd Year Type naval guns;25-38
-Suffren;Heavy Cruiser;10000;194;20;32;773;8x203mm/50 Modele 1924 guns;25-50
-Hiyo;Escort Carrier;24150;219,32;26,7;25,5;1187;6xtwin 12,7cm Type 89 dual-purpose guns;25-50
-Unryu;Aircraft Carrier;17760;227,35;22;32;1100;12x127mm Type 89 AA guns;25-50
-Ranger;Aircraft Carrier;14576;222,5;24,4;29,3;2148;8x5-inch/25 caliber anti-aircraft guns;25-51
-Tenryu;Light Cruiser;4011;142,9;12,3;33;327;4x14cm/50 3rd Year Type naval guns;25-63
-Hawkins;Heavy Cruiser;9750;172;18;31;750;7x7,5-inch Mark VI guns in single mounts CP Mk. V;25-64
+Courageous;Aircraft Carrier;22900;224,1;26,8;30;738;10xsingle 5,5-inch guns;19-76
+Crwon Colony;Light Cruiser;1725;169,32;19;31,5;730;12xBL 6-inch Mark XXIII guns in 4 triple mountings Mark XIX;unknown
 Danae;Light Cruiser;4850;135,6;14;29;469;6xBL 6-inch L/45 Mark XII guns in single mountings CP Mark XIV;25-76
-Leander;Light Cruiser;7270;169,1;17;32,5;570;8xBL 6-inch Mk. XXIII guns, twin turrets Mk. IV;25-76
-Hermes;Aircraft Carrier;11020;182,9;21,4;25;566;6x1-5,5-inch guns;25-76
-Furutaka;Heavy Cruiser;7100;185,1;16,55;34,5;625;6x20cm/50 caliber Mark I guns;25-76
-Bearn;Aircraft Carrier;22501;182,6;9,3;31,5;865;8x155mm/50 guns;25-80
-Norhhampton;Heavy Cruiser;9050;182,96;20,14;32,5;110;9x8-ich/55Mark 15 guns;25-95
-South Dakota;Battleship;35000;210;33;27;;9x16-inch/45 caliber Mark 6 guns;280-440
-Sendai;Light Cruiser;5278;158,53;14,17;35,25;440;2x8cm/40 3rd Year Type naval gun;29-64
-Tone;Heavy Cruiser;11213;189,1;19,4;35;;8x203mm guns;30-100
-Kawachi;Battleship;21157;160;25,7;21;1100;2xtwin 12-inch/50 guns;30-279
-Dunkerque;Battleship;26500;215,1;31,1;31;1381;8x330mm/50 Modele 1931 guns;30-330
-Nagara;Light Cruiser;5659;162,1;14,2;36;450;7x14cm/50 3rd Year Type naval guns;30-60
-Leipzig;Light Cruiser;8100;177;16,3;32;534;9x15cm SK C/25;30-80
-Portland;Heavy Cruiser;10110;180;20,19;32,7;807;9x8-ich/55Mark 15 guns;32-127
-Taiho;Aircraft Carrier;30250;260;27;33;1751;12x100mm/65 caliber Type 98 anti-aircraft guns;32-152
-Atlanta;Light Cruiser;6718;165;16;32,5;673;16x5-inch/38 caliber Mark 12 guns;32-95
-Ibuki;Light Carrier;14800;200,6;21,2;29;1015;2xtwin Type 98 8cm dual purpose guns;35-140
-Norh Carolina;Battleship;37200;222,113;33;15;2350;9x16-inch/45 caliber Mark 6 guns;37-305
 De Grasse;Light Cruiser;9389;199,3;21,5;33,8;980;8xtwin turrets 127mm AA;38-100
-Essex;Aircraft Carrier;27500;249,9;45;32,7;2170;12x5-inch/38 caliber guns;38-100
-La Galissonniere;Light Cruiser;7600;179;17,5;31;540;9x155mm/55 guns;38-120
-New Orleans;Heavy Cruiser;10110;179,27;18,82;32,7;708;9x8-ich/55Mark 15 guns;38-127
-Baltimore;Heavy Cruiser;14733;205,26;21,59;33;1146;9x8-ich/55Mark 15 guns;38-152
-Kaga;Aircraft Carrier;38813;247,65;32,5;28;1708;10xsingle 200mm guns;38-152
-Iowa;Battleship;46000;262,51;33;32,5;2700;9x16-inch/50 caliber Mark 7 guns;38-370
-Pennsylania;Battleship;29,626;182,9;29,72;21,38;915;12x14-inch/45 caliber guns;38-457
-Omaha;Light Cruiser;7160;169,62;16,87;35;360;12x6-inch/53 caliber guns;38-76
-Cleveland;Light Cruiser;11932;180;20,22;32,5;1255;4xtriple 6-inch/47;39-170
-Richelieu;Battleship;35000;247,85;33;30;911;8x380mm/45 Modele 1935 guns in quadruple turrets at the bow;40-330
-Bretagne;Battleship;23936;166;26,9;20;1190;10x340mm/45 Modele 1912 guns;40-340
-Emden;Light Cruiser;5400;155,1;14,2;29,5;385;8x15cm guns;40-50
-K;Light Cruiser;7800;174;15,3;32;512;9x15cm SK C/25;40-50
 Deutschland;Battleship;10800;186;21,69;26;619;6x28cm in triple turrets;45-140
-Brooklyn;Light Cruiser;9769;185;19;32,5;868;15xMark 16/1 triple 6-inch/47 Turret;50-165
-Gneienau;Battlecruiser;32100;234,9;30;31;1668;9x28cm/54,4 SK C/34;50-360
-Izumo;Armored Cruiser;9503;132,28;20,94;20,75;672;2xtwin 20,3cm/45 Type 41 naval guns;51-178
+Duguay-Tourin;Light Cruiser;7365;181,3;17,5;30;580;8x155mm/50 guns;20-30
+Dunkerque;Battleship;26500;215,1;31,1;31;1381;8x330mm/50 Modele 1931 guns;30-330
+Duquersne;Heavy Cruiser;10000;191;19;33,75;605;8x203mm/50 Modele 1924 guns;30
+Eagle;Aircraft Carrier;22200;203,5;35,1;24;791;9x6-inch guns;25-144
+Emden;Light Cruiser;5400;155,1;14,2;29,5;385;8x15cm guns;40-50
+Essex;Aircraft Carrier;27500;249,9;45;32,7;2170;12x5-inch/38 caliber guns;38-100
+Furutaka;Heavy Cruiser;7100;185,1;16,55;34,5;625;6x20cm/50 caliber Mark I guns;25-76
 Fuso;Battleship;29800;202,7;28,7;23;1193;6xtwin 356mm guns;51-305
-New York;Battleship;27433;175;28;21;1042;10x14-inch/45 caliber guns;51-356
-Yorktown;Aircraft Carrier;20100;230;25;32,5;2217;8x5-inch/38 caliber guns;64-100
-Zara;Heavy Cruiser;11508;179,6;20,62;32;841;8x203mm/53 caliber guns;70-150
-Shinano; Aircraft Carrier;64800;265,8;36,3;27;2400;8xtwin 12,7cm Type 89 dual purpose guns;75-400
-Illustrious;Aircraft Carrier;23000;225,6;29,2;30,5;1229;8xtwon QF 4,5-inch dual-purpose guns;76-114
-Renown;Battlecruiser;27600;228,7;27,5;31,5;953;3x2-15-inch guns;76-254
-Nevada;Battleship;27900;175,3;26,1;20,5;2220;10x14-inch/45 caliber guns;76-457
-Akagi;Aircraft Carrier;37100;260,67;31,32;31,5;1630;6xsingle 20cm guns;79-152
-Ise;Battleship;31760;208,18;28,65;23;1360;6xtwin 356mm guns;85-305
-Wasp;Aircraft Carrier;14900;210;33;29,5;2167;8x5-inch/38 caliber guns;89-152
-New Mexico;Battleship;32514;180;29,69;21;1084;12x14-inch/50 caliber guns;89-457
-Long Island;Escort Carrier;unknown;123,2;21,3;16,5;856;unknown;unknown
-Ninghai;Light Cruiser;unknown;unknown;unknown;unknown;unknown;unknown;unknown
-Tongji;Light Cruiser;unknown;unknown;unknown;unknown;unknown;unknown;unknown
+Gneienau;Battlecruiser;32100;234,9;30;31;1668;9x28cm/54,4 SK C/34;50-360
+Grap Zeppelin;Aircraft Carrier;33550;262,5;31,5;35;1720;16x15cm SK C/28;unknown
 Hairong;Protected Cruiser;unknown;unknown;unknown;unknown;unknown;unknown;unknown
 Haitien;Protected Cruiser;unknown;unknown;unknown;unknown;unknown;unknown;unknown
-Zhaohe;Protected Cruiser;unknown;unknown;unknown;unknown;unknown;unknown;unknown
-Nisshin;Seaplane Carrier;unknown;unknown;unknown;unknown;unknown;unknown;unknown
-Mississippi;Battleship;13209;116;7,49;17;744;4x12-inch/45 caliber Mark 5 guns;unknown
-Ruler;Escort Carrier;11600;150;21,2;17;646;2x4-inch DPAA guns in single mounts;unknown
-Casablanca;Escort Carrier;7800;156,1;19,9;20;916;1x5-inch/38 caliber gun;unknown
-Activity;Escort Carrier;14480;156,29;20,27;18;700;2x4-inch guns;unknown
-Kuma; Light Cruiser;5588;162,1;14,2;36;450;7x14cm/50 3rd Year Type naval guns;unknown
-Kaiyo;Escort Carrier;13400;166,55;21,9;23;829;4xtwin 12,7cm/40 Tpye 89 dual purspose guns;unknown
+Hawkins;Heavy Cruiser;9750;172;18;31;750;7x7,5-inch Mark VI guns in single mounts CP Mk. V;25-64
+Hermes;Aircraft Carrier;11020;182,9;21,4;25;566;6x1-5,5-inch guns;25-76
+Hiyo;Escort Carrier;24150;219,32;26,7;25,5;1187;6xtwin 12,7cm Type 89 dual-purpose guns;25-50
 Hosho;Light Carrier;7590;168,25;17,98;25;512;4xsingle 14cm/50 3rd Year Type guns;unknown
-Crwon Colony;Light Cruiser;1725;169,32;19;31,5;730;12xBL 6-inch Mark XXIII guns in 4 triple mountings Mark XIX;unknown
-Jeanne dArc;Light Cruiser;6500;170;17,7;25;728;8x155mm/50 guns;unknown
-Argus;Aircraft Carrier;14680;172,2;20,7;20;495;4x4-inch anti-aircraft guns;unknown
-Town;Light Cruiser;11540;180;19;32;750;12xBL 6-inch Mark XXIII guns ;unknown
-Taiyo;Escort Carrier;18116;180,2;22,5;21;850;4xtwin 12,7cm/40 Type 89 AA guns;unknown
-Algerie;Heavy Cruiser;10000;186,2;20;31;748;8x203mm/55 Modele 1931 guns;unknown
-Shinyo;Escort Carrier;17500;189,36;26;22;942;8x127mm/40 caliber dual purpose guns;unknown
+Ibuki;Light Carrier;14800;200,6;21,2;29;1015;2xtwin Type 98 8cm dual purpose guns;35-140
+Illustrious;Aircraft Carrier;23000;225,6;29,2;30,5;1229;8xtwon QF 4,5-inch dual-purpose guns;76-114
 Independence;Light Carrier;11000;190;21,8;31,5;;26xBofors 40mm guns;unknown
-Chitose;Aircraft Carrier;11400;192,5;20,8;28,9;800;4x12,7cm/40 Type 89 naval guns;unknown
+Indiana;Battleship;10453;106,96;21,11;15;473;4x13-inch/35 caliber guns;102-432
+Iowa;Battleship;46000;262,51;33;32,5;2700;9x16-inch/50 caliber Mark 7 guns;38-370
+Ise;Battleship;31760;208,18;28,65;23;1360;6xtwin 356mm guns;85-305
+Izumo;Armored Cruiser;9503;132,28;20,94;20,75;672;2xtwin 20,3cm/45 Type 41 naval guns;51-178
+Jeanne dArc;Light Cruiser;6500;170;17,7;25;728;8x155mm/50 guns;unknown
+K;Light Cruiser;7800;174;15,3;32;512;9x15cm SK C/25;40-50
+Kaga;Aircraft Carrier;38813;247,65;32,5;28;1708;10xsingle 200mm guns;38-152
+Kaiyo;Escort Carrier;13400;166,55;21,9;23;829;4xtwin 12,7cm/40 Tpye 89 dual purspose guns;unknown
+Katori;Light Cruiser;5985;129,77;15,95;18;590;4x140mm/40 caliber guns;10
+Kawachi;Battleship;21157;160;25,7;21;1100;2xtwin 12-inch/50 guns;30-279
+King George V;Battleship;42923;227,1;31,5;28,3;1422;10xBL 14-inch Mark VII guns;127-370
+Kirov;Light Cruiser;7890;191,3;17,66;35,94;872;3x3-180mm B1P guns;50
+Kongo;Battleship;27384;214,58;28,04;27,5;1193;4xtwin 356mm guns;25-254
+Kuma; Light Cruiser;5588;162,1;14,2;36;450;7x14cm/50 3rd Year Type naval guns;unknown
+La Galissonniere;Light Cruiser;7600;179;17,5;31;540;9x155mm/55 guns;38-120
+Leander;Light Cruiser;7270;169,1;17;32,5;570;8xBL 6-inch Mk. XXIII guns, twin turrets Mk. IV;25-76
+Leipzig;Light Cruiser;8100;177;16,3;32;534;9x15cm SK C/25;30-80
+Lexington;Aircraft Carrier;36000;270,7;32,3;33,25;2791;4xtwin 8-inch guns;19-178
+Long Island;Escort Carrier;unknown;123,2;21,3;16,5;856;unknown;unknown
+Mississippi;Battleship;13209;116;7,49;17;744;4x12-inch/45 caliber Mark 5 guns;unknown
+Mogami;Heavy Cruiser;8500;201,6;20,6;37;850;5xtriple 15,5cm/60 3rd Year Type guns;25-140
 Myoko;Heavy Cruiser;11633;204;17;35,8;773;10x20cm guns;unknown
-Zuiho;Light Carrier;11443;205,49;18,19;28;785;4x2-12,7cm/40 Type 89 gun;unknown
-Colossus;Light Cruiser;13200;210;24;25;1050;6x4-barrelled 2 pounder anti-aircraft guns;unknown
+Nagara;Light Cruiser;5659;162,1;14,2;36;450;7x14cm/50 3rd Year Type naval guns;30-60
+Nelson;Battleship;33950;201,2;32,2;23;1361;3xtriple 16-inch guns;25-356
+Nevada;Battleship;27900;175,3;26,1;20,5;2220;10x14-inch/45 caliber guns;76-457
+New Mexico;Battleship;32514;180;29,69;21;1084;12x14-inch/50 caliber guns;89-457
+New Orleans;Heavy Cruiser;10110;179,27;18,82;32,7;708;9x8-ich/55Mark 15 guns;38-127
+New York;Battleship;27433;175;28;21;1042;10x14-inch/45 caliber guns;51-356
+Ninghai;Light Cruiser;unknown;unknown;unknown;unknown;unknown;unknown;unknown
+Nisshin;Seaplane Carrier;unknown;unknown;unknown;unknown;unknown;unknown;unknown
+Norh Carolina;Battleship;37200;222,113;33;15;2350;9x16-inch/45 caliber Mark 6 guns;37-305
+Norhhampton;Heavy Cruiser;9050;182,96;20,14;32,5;110;9x8-ich/55Mark 15 guns;25-95
+Omaha;Light Cruiser;7160;169,62;16,87;35;360;12x6-inch/53 caliber guns;38-76
+Pennsylania;Battleship;29,626;182,9;29,72;21,38;915;12x14-inch/45 caliber guns;38-457
+Pensacola;Heavy Cruiser;9100;178,5;19,8;32,5;1200;10x8-inch/55 caliber guns;25-355
+Portland;Heavy Cruiser;10110;180;20,19;32,7;807;9x8-ich/55Mark 15 guns;32-127
+Queen Elizabeth;Battleship;27500;169,82;27,58;24;1300;8xBL 15-inch Mk I guns;25-355
+Ranger;Aircraft Carrier;14576;222,5;24,4;29,3;2148;8x5-inch/25 caliber anti-aircraft guns;25-51
+Renown;Battlecruiser;27600;228,7;27,5;31,5;953;3x2-15-inch guns;76-254
+Revenge;Battleship;29150;190;27;21;1150;8x15-inch/42 guns;127-330
+Richelieu;Battleship;35000;247,85;33;30;911;8x380mm/45 Modele 1935 guns in quadruple turrets at the bow;40-330
+Ruler;Escort Carrier;11600;150;21,2;17;646;2x4-inch DPAA guns in single mounts;unknown
 Ryuho;Aircraft Carrier;16700;215,65;19,58;26,5;989;4x12,7cm/40 Type 89 naval guns;unknown
-Ark Royal;Aircraft Carrier;22000;240;28,9;30;1580;16x4,5-inch dual purpose guns;unknown
+Sain Louis;Light Cruiser;10000;185;18,8;33;888;15xMark 16/1 triple 6-inch/47 Turret;25-355
+Sendai;Light Cruiser;5278;158,53;14,17;35,25;440;2x8cm/40 3rd Year Type naval gun;29-64
+Shinano; Aircraft Carrier;64800;265,8;36,3;27;2400;8xtwin 12,7cm Type 89 dual purpose guns;75-400
+Shinyo;Escort Carrier;17500;189,36;26;22;942;8x127mm/40 caliber dual purpose guns;unknown
 Shokaku;Aircraft Carrier;26087;257,5;26;34,2;1660;16x127mm Type 89 dual purpose guns;unknown
-Grap Zeppelin;Aircraft Carrier;33550;262,5;31,5;35;1720;16x15cm SK C/28;unknown
+South Dakota;Battleship;35000;210;33;27;;9x16-inch/45 caliber Mark 6 guns;280-440
+Suffren;Heavy Cruiser;10000;194;20;32;773;8x203mm/50 Modele 1924 guns;25-50
+Taiho;Aircraft Carrier;30250;260;27;33;1751;12x100mm/65 caliber Type 98 anti-aircraft guns;32-152
+Taiyo;Escort Carrier;18116;180,2;22,5;21;850;4xtwin 12,7cm/40 Type 89 AA guns;unknown
+Takao;Heavy Cruiser;9850;192,5;19;35;773;10x20cm/50 3rd Year Type naval guns;13-127
+Tennessee;Battleship;33723;180;30;31;1464;12x14-inch/51 caliber guns;127-457
+Tenryu;Light Cruiser;4011;142,9;12,3;33;327;4x14cm/50 3rd Year Type naval guns;25-63
+Tone;Heavy Cruiser;11213;189,1;19,4;35;;8x203mm guns;30-100
+Tongji;Light Cruiser;unknown;unknown;unknown;unknown;unknown;unknown;unknown
+Town;Light Cruiser;11540;180;19;32;750;12xBL 6-inch Mark XXIII guns ;unknown
+Trento;Heavy Cruiser;13548;169,96;20,6;35,5;781;8x203mm/50 caliber guns;20-100
+Unryu;Aircraft Carrier;17760;227,35;22;32;1100;12x127mm Type 89 AA guns;25-50
+Vittorio Veneto;Battleship;40723;237,76;32,82;30;1950;3x3 381mm/50 caliber guns;162-350
+Wasp;Aircraft Carrier;14900;210;33;29,5;2167;8x5-inch/38 caliber guns;89-152
+Yamato;Battleship;69300;256;36,9;27;2767;9x46cm guns;200-650
+Yorktown;Aircraft Carrier;20100;230;25;32,5;2217;8x5-inch/38 caliber guns;64-100
+Yubari;Light Cruiser;2890;138,9;12;35,5;328;6x14cm/50 3rd Year Type naval guns;25-38
+Zara;Heavy Cruiser;11508;179,6;20,62;32;841;8x203mm/53 caliber guns;70-150
+Zhaohe;Protected Cruiser;unknown;unknown;unknown;unknown;unknown;unknown;unknown
+Zuiho;Light Carrier;11443;205,49;18,19;28;785;4x2-12,7cm/40 Type 89 gun;unknown
